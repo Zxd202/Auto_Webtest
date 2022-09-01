@@ -1,9 +1,11 @@
 import pytest
-from test_case.page_object.LoginPage import *
+from page_object.LoginPage import *
 from selenium.common.exceptions import NoSuchElementException
 from utils.save_log import *
 import allure
+import sys
 
+sys.path.append(r"F:\Auto_Webtest")
 
 class Test_Login(object):
     def setup_class(self):
