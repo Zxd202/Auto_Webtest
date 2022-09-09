@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c576c4e5-3b7e-4741-9d97-a6310e58609e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test_report/html/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/test.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/test.log.2022-08-21_16" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/test.log.2022-08-23_10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/test.log.2022-08-23_21" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/test.log.2022-08-29_15" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/test.log.2022-08-30_15" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/page_object/LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object/LoginPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/page_object/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/Driverunit.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/Driverunit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/EmailUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/EmailUtil.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/ScreenUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/ScreenUtil.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/myfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/myfile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/parse_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/parse_excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/parse_yml.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/parse_yml.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/save_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/save_log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/allure_pytest/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/allure_pytest/helper.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/allure_pytest/listener.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/allure_pytest/plugin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/allure_pytest/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_object/UserlistPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object/UserlistPage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
