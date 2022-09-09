@@ -1,3 +1,5 @@
+#封装发送邮件的方法
+#作者：张旭东
 import smtplib
 from email.mime.text import MIMEText
 from email.header import Header

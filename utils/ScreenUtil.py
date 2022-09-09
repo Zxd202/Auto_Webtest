@@ -1,3 +1,5 @@
+#封装截屏的方法
+#作者：张旭东
 from utils.Driverunit import Driver
 import os
 

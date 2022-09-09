@@ -1,3 +1,5 @@
+#封装日志方法
+#作者：张旭东
 import logging
 from logging import handlers
 

@@ -1,0 +1,11 @@
+[ {
+  "uid" : "d249d828ecd47705",
+  "name" : "test_login1_normal",
+  "time" : {
+    "start" : 1662706662428,
+    "stop" : 1662706668978,
+    "duration" : 6550
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

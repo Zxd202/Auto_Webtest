@@ -1,0 +1,30 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "登录一级用例",
+    "children" : [ {
+      "name" : "登录用例",
+      "children" : [ {
+        "name" : "test_login1_normal",
+        "uid" : "d249d828ecd47705",
+        "parentUid" : "7cb46f48173032c334f21405b14a5afd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662706662428,
+          "stop" : 1662706668978,
+          "duration" : 6550
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7cb46f48173032c334f21405b14a5afd"
+    } ],
+    "uid" : "8bb8e3c220eefbb81661a476b621ad38"
+  } ]
+}

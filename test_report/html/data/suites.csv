@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Sep 09 14:57:42 CST 2022","Fri Sep 09 14:57:48 CST 2022","6550","test_case","登录测试用例","Test_Login","","","test_login1_normal","username and passwd is normal"

@@ -1,4 +1,5 @@
-import pytest
+#浏览器对象的方法
+#作者：张旭东
 from selenium import webdriver
 from time import sleep
 import os

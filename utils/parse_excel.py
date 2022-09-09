@@ -1,3 +1,5 @@
+#封装excel读写方法封装
+#作者：张旭东
 from openpyxl import load_workbook
 
 
@@ -10,14 +12,10 @@ class ParseXLSX():
         for i in range(1,cur_sheet.max_row+1):
             value1 = cur_sheet["{}{}".format(col,i)].value
             mylist.append(value1)
-
         #print(mylist)
         return mylist
 
-
 #封装一个读取xlsx的类，按列读取
-
-
 
 if __name__ == '__main__':
     myfile = 'user.xlsx'

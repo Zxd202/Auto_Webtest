@@ -1,5 +1,6 @@
+#封装yaml读取方法封装
+#作者：张旭东
 import yaml
-import os
 
 #封装读取配置文件yml的类
 class ParseYML():

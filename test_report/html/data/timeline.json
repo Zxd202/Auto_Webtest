@@ -1,0 +1,51 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PC-201903070025",
+    "children" : [ {
+      "name" : "3820-MainThread",
+      "children" : [ {
+        "name" : "test_login1_normal",
+        "uid" : "ee53990349f741c0",
+        "parentUid" : "5a23f6974fe24fcfa4f9ce69c664d04f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662697859711,
+          "stop" : 1662697866652,
+          "duration" : 6941
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5a23f6974fe24fcfa4f9ce69c664d04f"
+    }, {
+      "name" : "4984-MainThread",
+      "children" : [ {
+        "name" : "test_login1_normal",
+        "uid" : "d249d828ecd47705",
+        "parentUid" : "9cec6fde13f2910fba7652ba9882887b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662706662428,
+          "stop" : 1662706668978,
+          "duration" : 6550
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9cec6fde13f2910fba7652ba9882887b"
+    } ],
+    "uid" : "0494be79f7eac955e7759a8a0a3a66b7"
+  } ]
+}

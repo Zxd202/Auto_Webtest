@@ -1,8 +1,8 @@
-'''
-用于创建目录，存放文件（截图）
-'''
+#用于创建目录，存放文件（截图）
+#作者：张旭东
+
 import os
-from utils.mydate import currentDate,currentTime
+#from utils.mydate import currentDate,currentTime
 
 #截图路径
 def createDir():

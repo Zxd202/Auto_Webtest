@@ -2,22 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c576c4e5-3b7e-4741-9d97-a6310e58609e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/test_report/html/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/test.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/test.log.2022-08-21_16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/test.log.2022-08-23_10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/test.log.2022-08-23_21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/test.log.2022-08-29_15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/test.log.2022-08-30_15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/page_object/LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object/LoginPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/page_object/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_case/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/Driverunit.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/Driverunit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/EmailUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/EmailUtil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/ScreenUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/ScreenUtil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/myfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/myfile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/parse_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/parse_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/parse_yml.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/parse_yml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/save_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/save_log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/allure_pytest/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/allure_pytest/helper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/allure_pytest/listener.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/allure_pytest/plugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/allure_pytest/utils.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2DenGm60wBCcVrELVifY2Q9De0S" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -35,6 +65,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Auto_Webtest\utils" />
+      <recent name="F:\Auto_Webtest\test_data" />
+      <recent name="F:\Auto_Webtest" />
       <recent name="F:\Auto_Webtest\test_case" />
     </key>
   </component>
@@ -52,6 +85,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="conf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Auto_Webtest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/config" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config/conf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="readjsonUtil" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Auto_Webtest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/readjsonUtil.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,43 +156,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="save_log" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Auto_Webtest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/save_log.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_case.test_login.Test_Login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Auto_Webtest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case/case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_case.test_login.Test_Login&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest for test_login.Test_Login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Auto_Webtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,37 +172,37 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_login.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_login.Test_Login.test_login1_normal" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Auto_Webtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case/case" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case/test_login.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_login.Test_Login.test_login1_normal&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.conf" />
+      <item itemvalue="Python.readjsonUtil" />
       <item itemvalue="Python.run_test" />
-      <item itemvalue="Python.save_log" />
+      <item itemvalue="Python tests.pytest for test_login.Test_Login.test_login1_normal" />
       <item itemvalue="Python tests.pytest for test_login.Test_Login" />
-      <item itemvalue="Python tests.pytest for test_case.test_login.Test_Login" />
-      <item itemvalue="Python tests.pytest in test_login.py" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.run_test" />
         <item itemvalue="Python tests.pytest for test_login.Test_Login" />
-        <item itemvalue="Python tests.pytest for test_case.test_login.Test_Login" />
-        <item itemvalue="Python.save_log" />
-        <item itemvalue="Python tests.pytest in test_login.py" />
+        <item itemvalue="Python.readjsonUtil" />
+        <item itemvalue="Python tests.pytest for test_login.Test_Login.test_login1_normal" />
+        <item itemvalue="Python.conf" />
       </list>
     </recent_temporary>
   </component>
