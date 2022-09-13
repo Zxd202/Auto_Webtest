@@ -6,10 +6,12 @@ from utils.Driverunit import Driver
 from page_object.LoginPage import Login_Page_Task
 from utils.ScreenUtil import insert_img
 from utils.readjsonUtil import ReadJson
+from config import conf
+from utils.mydate import now_time
 import allure
 import pytest
 import os
-from config import conf
+
 
 #测试数据文件路径
 test_file = os.path.join(conf.get_data_path(),"login_data.json")

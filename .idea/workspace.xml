@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c576c4e5-3b7e-4741-9d97-a6310e58609e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/utils/mydate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/test.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page_object/UserlistPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object/UserlistPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/screenshot/login_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/myfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/save_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/save_log.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +54,7 @@
       <recent name="F:\Auto_Webtest\test_case" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.run_test">
+  <component name="RunManager" selected="Python tests.pytest in test_login.py">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Auto_Webtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,28 +76,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="conf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Auto_Webtest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/config" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config/conf.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="readjsonUtil" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="mydate (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Auto_Webtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,7 +88,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/readjsonUtil.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/mydate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mydate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Auto_Webtest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="F:\Auto_Webtest\utils\mydate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,7 +155,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_login.Test_Login.test_login1_normal" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_login.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Auto_Webtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -161,25 +167,25 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login.Test_Login.test_login1_normal&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case/test_login.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python.conf" />
-      <item itemvalue="Python.readjsonUtil" />
+      <item itemvalue="Python.mydate" />
+      <item itemvalue="Python.mydate (1)" />
       <item itemvalue="Python.run_test" />
-      <item itemvalue="Python tests.pytest for test_login.Test_Login.test_login1_normal" />
+      <item itemvalue="Python tests.pytest in test_login.py" />
       <item itemvalue="Python tests.pytest for test_login.Test_Login" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_login.py" />
+        <item itemvalue="Python.mydate (1)" />
+        <item itemvalue="Python.mydate" />
         <item itemvalue="Python.run_test" />
         <item itemvalue="Python tests.pytest for test_login.Test_Login" />
-        <item itemvalue="Python.readjsonUtil" />
-        <item itemvalue="Python tests.pytest for test_login.Test_Login.test_login1_normal" />
-        <item itemvalue="Python.conf" />
       </list>
     </recent_temporary>
   </component>

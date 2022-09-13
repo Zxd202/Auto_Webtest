@@ -45,6 +45,4 @@ class Logger(object):
 
 
 if __name__ == '__main__':
-    log = Logger('abc.log','debug')
-    log.info('info')
-    log.critical('critical')
+    pass
