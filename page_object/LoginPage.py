@@ -11,7 +11,6 @@ class Login_Page_Locator(object):
         self.username = (By.XPATH, '//input[@placeholder="请输入用户名"]')
         self.password = (By.XPATH, '//input[@placeholder="请输入密码"]')
         self.submit = (By.XPATH,'//span[text()="登录"]')
-
     def login_username(self):
         return self.driver.find_element(self.username[0],self.username[1])
     def login_password(self):
@@ -23,7 +22,6 @@ class Login_Page_Handle(object):
     """登录页操作"""
     def __init__(self):
         self.login_page_locator = Login_Page_Locator()
-
     def login_input_username(self, username):
         self.login_page_locator.login_username().clear()
         self.login_page_locator.login_username().send_keys(username)
@@ -37,7 +35,6 @@ class Login_Page_Task(object):
     """登录页业务"""
     def __init__(self):
         self.login_handle = Login_Page_Handle()
-
     def login(self,username,password):
         self.login_handle.login_input_username(username)
         sleep(2)
