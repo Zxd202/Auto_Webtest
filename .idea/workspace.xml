@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="c576c4e5-3b7e-4741-9d97-a6310e58609e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/test.log" afterDir="false" />
@@ -38,6 +39,9 @@
       <change beforePath="$PROJECT_DIR$/test_report/html/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/html/widgets/summary.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_report/screenshot/user_add_normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/screenshot/user_add_normal.png" afterDir="false" />
     </list>
+=======
+    <list default="true" id="c576c4e5-3b7e-4741-9d97-a6310e58609e" name="Changes" comment="" />
+>>>>>>> 4b76cc510025aba458bc1bcfbcd380b4047a26a6
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
