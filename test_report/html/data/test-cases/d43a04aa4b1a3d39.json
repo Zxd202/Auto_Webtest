@@ -1,0 +1,171 @@
+{
+  "uid" : "d43a04aa4b1a3d39",
+  "name" : "test_login1_normal",
+  "fullName" : "test_case.test_001_login.Test_Login#test_login1_normal",
+  "historyId" : "5ef76bccef16039bde05631a24b8bd12",
+  "time" : {
+    "start" : 1663252480781,
+    "stop" : 1663252487291,
+    "duration" : 6510
+  },
+  "description" : "username and passwd is normal",
+  "descriptionHtml" : "<p>username and passwd is normal</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_Login",
+    "time" : {
+      "start" : 1663252480776,
+      "stop" : 1663252480778,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "username and passwd is normal",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "30d86c70182f8d15",
+      "name" : "log",
+      "source" : "30d86c70182f8d15.txt",
+      "type" : "text/plain",
+      "size" : 71
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_Login::0",
+    "time" : {
+      "start" : 1663252487292,
+      "stop" : 1663252487292,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "登录测试用例"
+  }, {
+    "name" : "story",
+    "value" : "登录用例"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Login"
+  }, {
+    "name" : "host",
+    "value" : "PC-201903070025"
+  }, {
+    "name" : "thread",
+    "value" : "6288-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_001_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "8748b7f7a56daadb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663252348236,
+        "stop" : 1663252354758,
+        "duration" : 6522
+      }
+    }, {
+      "uid" : "4fc73aeca2ca6a7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663252265390,
+        "stop" : 1663252271913,
+        "duration" : 6523
+      }
+    }, {
+      "uid" : "9f423d3a4ca38159",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663251469581,
+        "stop" : 1663251476115,
+        "duration" : 6534
+      }
+    }, {
+      "uid" : "b8b74453bd506916",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663214210608,
+        "stop" : 1663214217144,
+        "duration" : 6536
+      }
+    }, {
+      "uid" : "7e0fb950e0890338",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663213536824,
+        "stop" : 1663213543392,
+        "duration" : 6568
+      }
+    }, {
+      "uid" : "4ad1526e54b37a8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663213038464,
+        "stop" : 1663213044988,
+        "duration" : 6524
+      }
+    }, {
+      "uid" : "5b69d3aa488ffa8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663211558465,
+        "stop" : 1663211565090,
+        "duration" : 6625
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d43a04aa4b1a3d39.json",
+  "parameterValues" : [ ]
+}

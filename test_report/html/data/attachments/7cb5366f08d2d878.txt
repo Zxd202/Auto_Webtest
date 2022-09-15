@@ -1,1 +1,0 @@
-INFO     F:\Auto_Webtest\log\test.log:save_log.py:33 test_login success

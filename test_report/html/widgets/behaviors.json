@@ -1,8 +1,30 @@
 {
-  "total" : 1,
+  "total" : 3,
   "items" : [ {
     "uid" : "8bb8e3c220eefbb81661a476b621ad38",
     "name" : "登录一级用例",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "851d0300996739afe8d399e7fb20fee1",
+    "name" : "正常添加用户",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "faa54caf55ab86ce567c76cec5f8e900",
+    "name" : "登录用例",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

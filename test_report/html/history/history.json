@@ -2,6 +2,26 @@
   "c92e16c36c63c6656a7c2cb3a1becbc1" : {
     "statistic" : {
       "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "58eab7500172f09f",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=54293): Max retries exceeded with url: /session/3125f4f1df2435d2cfdff43b7a38e6fb/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000003AB6B50>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1663211242458,
+        "stop" : 1663211250484,
+        "duration" : 8026
+      }
+    } ]
+  },
+  "21f9e290bc17bada7e5bf9afe638c45e" : {
+    "statistic" : {
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 1,
@@ -9,12 +29,50 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d249d828ecd47705",
+      "uid" : "bfd1afe8592d87c5",
       "status" : "passed",
       "time" : {
-        "start" : 1662706662428,
-        "stop" : 1662706668978,
-        "duration" : 6550
+        "start" : 1663211221848,
+        "stop" : 1663211237247,
+        "duration" : 15399
+      }
+    } ]
+  },
+  "5ef76bccef16039bde05631a24b8bd12" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d43a04aa4b1a3d39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663252480781,
+        "stop" : 1663252487291,
+        "duration" : 6510
+      }
+    } ]
+  },
+  "84039d43224d4034e83312c8ca354a99" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b3210fb3418e170b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663252487314,
+        "stop" : 1663252502685,
+        "duration" : 15371
       }
     } ]
   }

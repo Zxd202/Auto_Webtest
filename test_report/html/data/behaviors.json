@@ -2,29 +2,88 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
+    "name" : "正常添加用户",
+    "children" : [ {
+      "name" : "test_user_add",
+      "uid" : "bfd1afe8592d87c5",
+      "parentUid" : "851d0300996739afe8d399e7fb20fee1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663211221848,
+        "stop" : 1663211237247,
+        "duration" : 15399
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_user_add",
+      "uid" : "b3210fb3418e170b",
+      "parentUid" : "851d0300996739afe8d399e7fb20fee1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663252487314,
+        "stop" : 1663252502685,
+        "duration" : 15371
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 7,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "851d0300996739afe8d399e7fb20fee1"
+  }, {
     "name" : "登录一级用例",
     "children" : [ {
       "name" : "登录用例",
       "children" : [ {
         "name" : "test_login1_normal",
-        "uid" : "d249d828ecd47705",
+        "uid" : "58eab7500172f09f",
         "parentUid" : "7cb46f48173032c334f21405b14a5afd",
-        "status" : "passed",
+        "status" : "broken",
         "time" : {
-          "start" : 1662706662428,
-          "stop" : 1662706668978,
-          "duration" : 6550
+          "start" : 1663211242458,
+          "stop" : 1663211250484,
+          "duration" : 8026
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
         "parameters" : [ ]
       } ],
       "uid" : "7cb46f48173032c334f21405b14a5afd"
     } ],
     "uid" : "8bb8e3c220eefbb81661a476b621ad38"
+  }, {
+    "name" : "登录用例",
+    "children" : [ {
+      "name" : "test_login1_normal",
+      "uid" : "d43a04aa4b1a3d39",
+      "parentUid" : "faa54caf55ab86ce567c76cec5f8e900",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663252480781,
+        "stop" : 1663252487291,
+        "duration" : 6510
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 7,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "faa54caf55ab86ce567c76cec5f8e900"
   } ]
 }

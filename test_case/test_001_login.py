@@ -19,13 +19,12 @@ username = data.get_json_value("username",test_file)
 password = data.get_json_value("password",test_file)
 
 @allure.suite("登录测试用例")
-@allure.feature("登录一级用例")
 class Test_Login(object):
     def setup_class(self):
         self.driver = Driver.get_driver()
         self.loginpage = Login_Page_Task()
     def teardown_class(self):
-        Driver.quit_driver()
+        pass
     @allure.story("登录用例")
     @allure.severity(allure.severity_level.BLOCKER)
     def test_login1_normal(self):
@@ -39,7 +38,7 @@ class Test_Login(object):
         insert_img("login_normal.png")
 
 if __name__ == '__main__':
-    pytest.main(['-s','test_login.py'])
+    pytest.main(['-s','test_001_login.py'])
 
 
 

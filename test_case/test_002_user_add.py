@@ -10,6 +10,7 @@ from utils.save_log import Logger
 from selenium.common.exceptions import NoSuchElementException
 import os
 import pytest
+import allure
 
 
 #读取测试数据
@@ -19,15 +20,19 @@ username = data.get_json_value("username",test_file)
 password = data.get_json_value("password",test_file)
 email = data.get_json_value("email",test_file)
 
-#用户列表添加用户测试用例
+
+@allure.suite("用户列表添加用户测试用例")
 class Test_User_add(object):
     def setup_class(self):
         self.driver = Driver.get_driver()
         self.user_add = User_Add_Page_Task()
-        self.login = Login_Page_Task()
-        self.login.login("admin","123456")
+        #self.login = Login_Page_Task()
+        #self.login.login("admin","123456")
     def teardown_class(self):
         Driver.quit_driver()
+
+    @allure.story("正常添加用户")
+    @allure.severity(allure.severity_level.NORMAL)
     def test_user_add(self):
         """正常添加用户"""
         Logger().info("user add success")
@@ -39,6 +44,5 @@ class Test_User_add(object):
         insert_img("user_add_normal.png")
 
 
-
 if __name__ == '__main__':
-    pytest.main(["-s","test_001_user_add.py"])
+    pytest.main(["-s","test_002_user_add.py"])

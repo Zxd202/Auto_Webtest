@@ -4,16 +4,39 @@
     <list default="true" id="c576c4e5-3b7e-4741-9d97-a6310e58609e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/test.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/test.log.2022-09-08_09" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/test.log.2022-09-08_14" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/test.log.2022-09-08_17" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/test.log.2022-09-08_23" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/test.log.2022-09-09_11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/test.log.2022-09-09_12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/test.log.2022-09-09_14" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_object/UserlistPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object/UserlistPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/test_001_user_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_001_user_add.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/test_001_user_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_002_user_add.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_001_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/data/attachments/69d7b38e733b0724.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/data/attachments/7cb5366f08d2d878.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/html/data/behaviors.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/html/data/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/html/data/categories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/html/data/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/html/data/packages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/html/data/suites.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/html/data/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/data/test-cases/d249d828ecd47705.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/data/test-cases/ee53990349f741c0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/html/data/timeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/html/export/influxDbData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/html/export/prometheusData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/html/history/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/html/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/html/history/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/html/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/html/history/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/widgets/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/html/widgets/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/widgets/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/html/widgets/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/widgets/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/html/widgets/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/html/widgets/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/html/widgets/duration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/html/widgets/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/html/widgets/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/html/widgets/severity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/html/widgets/status-chart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/html/widgets/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/html/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/html/widgets/summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/screenshot/user_add_normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/screenshot/user_add_normal.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +81,7 @@
       <recent name="F:\Auto_Webtest\test_case" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_001_user_add.py">
+  <component name="RunManager" selected="Python.run_test">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Auto_Webtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mydate (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="run_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Auto_Webtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,11 +132,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/mydate.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_login.Test_Login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_case.test_001_login.Test_Login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Auto_Webtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,11 +157,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login.Test_Login&quot;" />
+      <option name="_new_target" value="&quot;test_case.test_001_login.Test_Login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_001_user_add.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_001_login.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Auto_Webtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,11 +173,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case/test_001_user_add.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case/test_001_login.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_login.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_002_user_add.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Auto_Webtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -166,25 +189,25 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case/test_login.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case/test_002_user_add.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.UserlistPage" />
-      <item itemvalue="Python.mydate (1)" />
-      <item itemvalue="Python tests.pytest for test_login.Test_Login" />
-      <item itemvalue="Python tests.pytest in test_001_user_add.py" />
-      <item itemvalue="Python tests.pytest in test_login.py" />
+      <item itemvalue="Python.run_test" />
+      <item itemvalue="Python tests.pytest for test_case.test_001_login.Test_Login" />
+      <item itemvalue="Python tests.pytest in test_001_login.py" />
+      <item itemvalue="Python tests.pytest in test_002_user_add.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_001_user_add.py" />
-        <item itemvalue="Python tests.pytest for test_login.Test_Login" />
+        <item itemvalue="Python.run_test" />
+        <item itemvalue="Python tests.pytest in test_002_user_add.py" />
+        <item itemvalue="Python tests.pytest for test_case.test_001_login.Test_Login" />
         <item itemvalue="Python.UserlistPage" />
-        <item itemvalue="Python tests.pytest in test_login.py" />
-        <item itemvalue="Python.mydate (1)" />
+        <item itemvalue="Python tests.pytest in test_001_login.py" />
       </list>
     </recent_temporary>
   </component>
