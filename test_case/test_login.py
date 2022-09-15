@@ -1,13 +1,12 @@
 #登录测试用例
 #作者：张旭东
 from selenium.common.exceptions import NoSuchElementException
-from utils.save_log import *
+from utils.save_log import Logger
 from utils.Driverunit import Driver
 from page_object.LoginPage import Login_Page_Task
 from utils.ScreenUtil import insert_img
 from utils.readjsonUtil import ReadJson
 from config import conf
-from utils.mydate import now_time
 import allure
 import pytest
 import os
@@ -27,12 +26,6 @@ class Test_Login(object):
         self.loginpage = Login_Page_Task()
     def teardown_class(self):
         Driver.quit_driver()
-
-    def setUp(self):
-        self.driver.get('http://43.138.61.199:8899/#/login')
-    def tearDown(self):
-        pass
-
     @allure.story("登录用例")
     @allure.severity(allure.severity_level.BLOCKER)
     def test_login1_normal(self):

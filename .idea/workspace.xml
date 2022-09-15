@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c576c4e5-3b7e-4741-9d97-a6310e58609e" name="Changes" comment="" />
+    <list default="true" id="c576c4e5-3b7e-4741-9d97-a6310e58609e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/test.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/test.log.2022-09-08_09" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/test.log.2022-09-08_14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/test.log.2022-09-08_17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/test.log.2022-09-08_23" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/test.log.2022-09-09_11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/test.log.2022-09-09_12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/test.log.2022-09-09_14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_object/UserlistPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object/UserlistPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/test_001_user_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_001_user_add.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_login.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +58,7 @@
       <recent name="F:\Auto_Webtest\test_case" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.UserlistPage">
+  <component name="RunManager" selected="Python tests.pytest in test_001_user_add.py">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Auto_Webtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,46 +122,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mydate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_login.Test_Login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Auto_Webtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="F:\Auto_Webtest\utils\mydate.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.Test_Login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="run_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_001_user_add.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Auto_Webtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case/test_001_user_add.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in test_login.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -170,18 +173,18 @@
     <list>
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.UserlistPage" />
-      <item itemvalue="Python.mydate" />
       <item itemvalue="Python.mydate (1)" />
-      <item itemvalue="Python.run_test" />
+      <item itemvalue="Python tests.pytest for test_login.Test_Login" />
+      <item itemvalue="Python tests.pytest in test_001_user_add.py" />
       <item itemvalue="Python tests.pytest in test_login.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_001_user_add.py" />
+        <item itemvalue="Python tests.pytest for test_login.Test_Login" />
         <item itemvalue="Python.UserlistPage" />
         <item itemvalue="Python tests.pytest in test_login.py" />
         <item itemvalue="Python.mydate (1)" />
-        <item itemvalue="Python.mydate" />
-        <item itemvalue="Python.run_test" />
       </list>
     </recent_temporary>
   </component>

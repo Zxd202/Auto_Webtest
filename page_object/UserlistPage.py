@@ -1,7 +1,6 @@
 #用户列表相关元素定位
 #作者：张旭东
 from selenium.webdriver.common.by import By
-from page_object.LoginPage import Login_Page_Task
 from utils.Driverunit import Driver
 from time import sleep
 
@@ -103,17 +102,17 @@ class User_Add_Page_Task(object):
         self.user_add_task = User_Add_Page_Handle()
     def user_add(self,username,password,email):
         self.user_add_task.user_add_click_banner()
-        #sleep(2)
+        sleep(2)
         self.user_add_task.user_add_click_userlist()
-        #sleep(2)
+        sleep(2)
         self.user_add_task.user_add_click_button()
-        #sleep(2)
+        sleep(2)
         self.user_add_task.user_add_input_usename(username)
-        #sleep(2)
+        sleep(2)
         self.user_add_task.user_add_input_password(password)
-        #sleep(2)
+        sleep(2)
         self.user_add_task.user_add_input_email(email)
-        #sleep(2)
+        sleep(2)
         self.user_add_task.user_add_click_confirm()
         sleep(2)
 
