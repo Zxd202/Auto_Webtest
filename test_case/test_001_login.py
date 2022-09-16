@@ -2,7 +2,6 @@
 #作者：张旭东
 from selenium.common.exceptions import NoSuchElementException
 from utils.save_log import Logger
-from utils.Driverunit import Driver
 from page_object.LoginPage import Login_Page_Task
 from utils.ScreenUtil import insert_img
 from utils.readjsonUtil import ReadJson
@@ -20,11 +19,7 @@ password = data.get_json_value("password",test_file)
 
 @allure.suite("登录测试用例")
 class Test_Login(object):
-    def setup_class(self):
-        self.driver = Driver.get_driver()
-        self.loginpage = Login_Page_Task()
-    def teardown_class(self):
-        pass
+    loginpage = Login_Page_Task()
     @allure.story("登录用例")
     @allure.severity(allure.severity_level.BLOCKER)
     def test_login1_normal(self):

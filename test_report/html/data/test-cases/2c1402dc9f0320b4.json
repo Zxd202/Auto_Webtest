@@ -1,12 +1,12 @@
 {
-  "uid" : "34c27517b702648f",
+  "uid" : "2c1402dc9f0320b4",
   "name" : "test_user_add",
   "fullName" : "test_case.test_002_user_add.Test_User_add#test_user_add",
   "historyId" : "84039d43224d4034e83312c8ca354a99",
   "time" : {
-    "start" : 1663252354763,
-    "stop" : 1663252370038,
-    "duration" : 15275
+    "start" : 1663293193426,
+    "stop" : 1663293208738,
+    "duration" : 15312
   },
   "description" : "正常添加用户",
   "descriptionHtml" : "<p>正常添加用户</p>\n",
@@ -18,63 +18,63 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
-    "name" : "_xunit_setup_class_fixture_Test_User_add",
+    "name" : "start_driver",
     "time" : {
-      "start" : 1663252354762,
-      "stop" : 1663252354762,
-      "duration" : 0
+      "start" : 1663293176544,
+      "stop" : 1663293183206,
+      "duration" : 6662
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "testStage" : {
     "description" : "正常添加用户",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "cf387a95e09904a1",
+      "uid" : "fe40c4a2a634e926",
       "name" : "log",
-      "source" : "cf387a95e09904a1.txt",
+      "source" : "fe40c4a2a634e926.txt",
       "type" : "text/plain",
       "size" : 69
     } ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : true,
     "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "_xunit_setup_class_fixture_Test_User_add::0",
+    "name" : "start_driver::0",
     "time" : {
-      "start" : 1663252370039,
-      "stop" : 1663252370039,
-      "duration" : 0
+      "start" : 1663293208738,
+      "stop" : 1663293211071,
+      "duration" : 2333
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "labels" : [ {
     "name" : "story",
     "value" : "正常添加用户"
   }, {
-    "name" : "severity",
-    "value" : "normal"
-  }, {
     "name" : "suite",
     "value" : "用户列表添加用户测试用例"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
   }, {
     "name" : "parentSuite",
     "value" : "test_case"
@@ -86,7 +86,7 @@
     "value" : "PC-201903070025"
   }, {
     "name" : "thread",
-    "value" : "8068-MainThread"
+    "value" : "3292-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -102,12 +102,14 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "34c27517b702648f.json",
+  "source" : "2c1402dc9f0320b4.json",
   "parameterValues" : [ ]
 }

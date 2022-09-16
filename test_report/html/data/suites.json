@@ -4,89 +4,55 @@
   "children" : [ {
     "name" : "test_case",
     "children" : [ {
-      "name" : "用户列表添加用户测试用例",
-      "children" : [ {
-        "name" : "Test_User_add",
-        "children" : [ {
-          "name" : "test_user_add",
-          "uid" : "bfd1afe8592d87c5",
-          "parentUid" : "4bf20489252d3ce266951fd9b7e59def",
-          "status" : "passed",
-          "time" : {
-            "start" : 1663211221848,
-            "stop" : 1663211237247,
-            "duration" : 15399
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 1,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_user_add",
-          "uid" : "b3210fb3418e170b",
-          "parentUid" : "4bf20489252d3ce266951fd9b7e59def",
-          "status" : "passed",
-          "time" : {
-            "start" : 1663252487314,
-            "stop" : 1663252502685,
-            "duration" : 15371
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 7,
-          "retriesStatusChange" : true,
-          "parameters" : [ ]
-        } ],
-        "uid" : "4bf20489252d3ce266951fd9b7e59def"
-      } ],
-      "uid" : "d9d54679e1e6263e42eef677300c125c"
-    }, {
       "name" : "登录测试用例",
       "children" : [ {
         "name" : "Test_Login",
         "children" : [ {
           "name" : "test_login1_normal",
-          "uid" : "58eab7500172f09f",
-          "parentUid" : "f5a38852a0c9bd0a0fe0db5df3de0585",
-          "status" : "broken",
-          "time" : {
-            "start" : 1663211242458,
-            "stop" : 1663211250484,
-            "duration" : 8026
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 3,
-          "retriesStatusChange" : true,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_login1_normal",
-          "uid" : "d43a04aa4b1a3d39",
+          "uid" : "678c9821bb655cd5",
           "parentUid" : "f5a38852a0c9bd0a0fe0db5df3de0585",
           "status" : "passed",
           "time" : {
-            "start" : 1663252480781,
-            "stop" : 1663252487291,
-            "duration" : 6510
+            "start" : 1663293183209,
+            "stop" : 1663293193422,
+            "duration" : 10213
           },
           "flaky" : false,
           "newFailed" : false,
           "newPassed" : false,
           "newBroken" : false,
-          "retriesCount" : 7,
+          "retriesCount" : 0,
           "retriesStatusChange" : false,
           "parameters" : [ ]
         } ],
         "uid" : "f5a38852a0c9bd0a0fe0db5df3de0585"
       } ],
       "uid" : "aec1d391b403f45b1adec9c49c739843"
+    }, {
+      "name" : "用户列表添加用户测试用例",
+      "children" : [ {
+        "name" : "Test_User_add",
+        "children" : [ {
+          "name" : "test_user_add",
+          "uid" : "2c1402dc9f0320b4",
+          "parentUid" : "4bf20489252d3ce266951fd9b7e59def",
+          "status" : "passed",
+          "time" : {
+            "start" : 1663293193426,
+            "stop" : 1663293208738,
+            "duration" : 15312
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4bf20489252d3ce266951fd9b7e59def"
+      } ],
+      "uid" : "d9d54679e1e6263e42eef677300c125c"
     } ],
     "uid" : "86abcc46617c603d802c3e378b13740e"
   } ]

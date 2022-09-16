@@ -1,30 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=54293): Max retries exceeded with url: /session/3125f4f1df2435d2cfdff43b7a38e6fb/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000003AB6B50>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
-      "children" : [ {
-        "name" : "test_login1_normal",
-        "uid" : "58eab7500172f09f",
-        "parentUid" : "aedc896b7e48b8524bb4e4ce5199d996",
-        "status" : "broken",
-        "time" : {
-          "start" : 1663211242458,
-          "stop" : 1663211250484,
-          "duration" : 8026
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "aedc896b7e48b8524bb4e4ce5199d996"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  "children" : [ ]
 }
