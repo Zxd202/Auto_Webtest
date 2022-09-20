@@ -1,0 +1,6 @@
+2022-09-19 11:56:28,855 - save_log.py[line:35] - INFO: test_login success
+2022-09-19 11:56:38,878 - save_log.py[line:41] - ERROR: login no find element
+2022-09-19 11:56:38,878 - save_log.py[line:41] - ERROR: login no find element
+2022-09-19 11:56:39,028 - save_log.py[line:35] - INFO: user add success
+2022-09-19 11:56:39,028 - save_log.py[line:35] - INFO: user add success
+2022-09-19 11:56:39,028 - save_log.py[line:35] - INFO: user add success

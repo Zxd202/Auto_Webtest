@@ -7,19 +7,19 @@
       "name" : "test_001_login",
       "children" : [ {
         "name" : "test_login1_normal",
-        "uid" : "678c9821bb655cd5",
+        "uid" : "911bb2db7d0bb0a0",
         "parentUid" : "2ce203e104e36b48d415b642a45b270e",
         "status" : "passed",
         "time" : {
-          "start" : 1663293183209,
-          "stop" : 1663293193422,
-          "duration" : 10213
+          "start" : 1663637967714,
+          "stop" : 1663637977917,
+          "duration" : 10203
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 0,
+        "retriesCount" : 8,
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
@@ -28,20 +28,20 @@
       "name" : "test_002_user_add",
       "children" : [ {
         "name" : "test_user_add",
-        "uid" : "2c1402dc9f0320b4",
+        "uid" : "70130a124efcaef7",
         "parentUid" : "ff8dd8fee9e99326e6ff03be28924ae4",
         "status" : "passed",
         "time" : {
-          "start" : 1663293193426,
-          "stop" : 1663293208738,
-          "duration" : 15312
+          "start" : 1663637977933,
+          "stop" : 1663637993395,
+          "duration" : 15462
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : true,
         "parameters" : [ ]
       } ],
       "uid" : "ff8dd8fee9e99326e6ff03be28924ae4"

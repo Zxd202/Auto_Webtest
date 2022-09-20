@@ -1,0 +1,10 @@
+#该文件作用：数据库相关的基本信息
+#作者 : 张旭东
+
+db_authority:
+  db_host: "43.138.61.199"
+  db_user: "root"
+  db_password: "123456"
+  db_name: "authority"
+  db_charset: "utf8"
+  db_port: 9506

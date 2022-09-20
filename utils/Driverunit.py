@@ -3,14 +3,14 @@
 from selenium import webdriver
 from time import sleep
 import os
-from utils.parse_yml import ParseYML
+from config.conf import ConfigYaml
 
 
 current_path = os.path.realpath(__file__)
 one_path = os.path.dirname(os.path.dirname(current_path))
-yml_file = os.path.join(one_path,'config','conf.yml')
-ip = ParseYML.parse_yml(yml_file,'ipaddress')
+ip = ConfigYaml().get_url()
 url = 'http://{}/'.format(ip)
+
 
 class Driver(object):
     #浏览器对象变量初始化

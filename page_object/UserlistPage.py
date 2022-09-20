@@ -30,6 +30,8 @@ class User_Add_Page_Locator(object):
         self.confirm = (By.XPATH,"//div[@aria-label='添加分类']/div[3]/span/button[2]/span")
         #添加用户弹框-取消按钮元素定位
         self.cancel = (By.XPATH,"//div[@aria-label='添加分类']/div[3]/span/button[1]/span")
+        #添加用户成功提示信息元素定位
+        self.user_succee = (By.XPATH,"//p[text()='添加用户成功']")
 
     def user_add_banner(self):
         return self.driver.find_element(self.banner[0],self.banner[1])
@@ -53,6 +55,8 @@ class User_Add_Page_Locator(object):
         return self.driver.find_element(self.confirm[0],self.confirm[1])
     def user_cancel(self):
         return self.driver.find_element(self.cancel[0],self.cancel[1])
+    def user_add_succee(self):
+        return self.driver.find_element(self.user_succee[0],self.user_succee[1])
 
 
 class User_Add_Page_Handle(object):
