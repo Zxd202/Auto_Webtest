@@ -1,12 +1,12 @@
 {
-  "uid" : "911bb2db7d0bb0a0",
+  "uid" : "a0697b75b5ed23b",
   "name" : "test_login1_normal",
   "fullName" : "test_case.test_001_login.Test_Login#test_login1_normal",
   "historyId" : "5ef76bccef16039bde05631a24b8bd12",
   "time" : {
-    "start" : 1663637967714,
-    "stop" : 1663637977917,
-    "duration" : 10203
+    "start" : 1663681060636,
+    "stop" : 1663681070874,
+    "duration" : 10238
   },
   "description" : "username and passwd is normal",
   "descriptionHtml" : "<p>username and passwd is normal</p>\n",
@@ -15,14 +15,14 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 8,
+  "retriesCount" : 9,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
     "name" : "start_driver",
     "time" : {
-      "start" : 1663637961304,
-      "stop" : 1663637967711,
-      "duration" : 6407
+      "start" : 1663681054245,
+      "stop" : 1663681060634,
+      "duration" : 6389
     },
     "status" : "passed",
     "steps" : [ ],
@@ -38,9 +38,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "e3a45d042841d28c",
+      "uid" : "3b21187bab92d8e",
       "name" : "log",
-      "source" : "e3a45d042841d28c.txt",
+      "source" : "3b21187bab92d8e.txt",
       "type" : "text/plain",
       "size" : 146
     } ],
@@ -53,9 +53,9 @@
   "afterStages" : [ {
     "name" : "start_driver::0",
     "time" : {
-      "start" : 1663637993555,
-      "stop" : 1663637995832,
-      "duration" : 2277
+      "start" : 1663681086482,
+      "stop" : 1663681088652,
+      "duration" : 2170
     },
     "status" : "passed",
     "steps" : [ ],
@@ -67,11 +67,11 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "severity",
-    "value" : "blocker"
-  }, {
     "name" : "story",
     "value" : "登录用例"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
   }, {
     "name" : "suite",
     "value" : "登录测试用例"
@@ -86,7 +86,7 @@
     "value" : "PC-201903070025"
   }, {
     "name" : "thread",
-    "value" : "4276-MainThread"
+    "value" : "332-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -107,7 +107,15 @@
   "extra" : {
     "severity" : "blocker",
     "retries" : [ {
-      "uid" : "debb00320c536f44",
+      "uid" : "cbbbc76d5c15b824",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663637967714,
+        "stop" : 1663637977917,
+        "duration" : 10203
+      }
+    }, {
+      "uid" : "a0cfc174cca3f28",
       "status" : "passed",
       "time" : {
         "start" : 1663637812558,
@@ -115,7 +123,7 @@
         "duration" : 10214
       }
     }, {
-      "uid" : "8176223af95fdaeb",
+      "uid" : "39f1394a8ed65bc0",
       "status" : "passed",
       "time" : {
         "start" : 1663637649413,
@@ -123,7 +131,7 @@
         "duration" : 10196
       }
     }, {
-      "uid" : "d35feed3412c695e",
+      "uid" : "3e4bd44688a582b1",
       "status" : "passed",
       "time" : {
         "start" : 1663636567932,
@@ -131,7 +139,7 @@
         "duration" : 10170
       }
     }, {
-      "uid" : "e68106e3e62601bb",
+      "uid" : "ec39ce8b1e31bcc7",
       "status" : "passed",
       "time" : {
         "start" : 1663559788854,
@@ -139,7 +147,7 @@
         "duration" : 10169
       }
     }, {
-      "uid" : "f724c86145a18309",
+      "uid" : "edfa12e04ddb107c",
       "status" : "passed",
       "time" : {
         "start" : 1663550879143,
@@ -147,7 +155,7 @@
         "duration" : 10189
       }
     }, {
-      "uid" : "990b3978370471d2",
+      "uid" : "ddddf081e4bd3435",
       "status" : "passed",
       "time" : {
         "start" : 1663342907959,
@@ -155,7 +163,7 @@
         "duration" : 10215
       }
     }, {
-      "uid" : "aeda473bbc9e835c",
+      "uid" : "9d74ff8e14907c24",
       "status" : "passed",
       "time" : {
         "start" : 1663342746050,
@@ -163,7 +171,7 @@
         "duration" : 10252
       }
     }, {
-      "uid" : "7392c6c1d16e5375",
+      "uid" : "8cf4b953154168a2",
       "status" : "passed",
       "time" : {
         "start" : 1663293183209,
@@ -174,6 +182,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "911bb2db7d0bb0a0.json",
+  "source" : "a0697b75b5ed23b.json",
   "parameterValues" : [ ]
 }

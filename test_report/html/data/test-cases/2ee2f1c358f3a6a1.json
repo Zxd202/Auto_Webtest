@@ -1,18 +1,18 @@
 {
-  "uid" : "e3f3061f06ba13d3",
+  "uid" : "2ee2f1c358f3a6a1",
   "name" : "test_user_add",
   "fullName" : "test_case.test_002_user_add.Test_User_add#test_user_add",
   "historyId" : "84039d43224d4034e83312c8ca354a99",
   "time" : {
-    "start" : 1663636578106,
-    "stop" : 1663636593399,
-    "duration" : 15293
+    "start" : 1663637822776,
+    "stop" : 1663637838050,
+    "duration" : 15274
   },
   "description" : "正常添加用户",
   "descriptionHtml" : "<p>正常添加用户</p>\n",
-  "status" : "failed",
-  "statusMessage" : "AssertionError: assert '添加用户成功' == <selenium.webdriver.remote.webelement.WebElement (session=\"69748fe9d2ddd33955bd7dacae561f74\", element=\"fb3b6d75-c3ce-468d-b062-615a48c6e24c\")>",
-  "statusTrace" : "self = <test_case.test_002_user_add.Test_User_add object at 0x00000000039D7EB0>\n\n    @allure.story(\"正常添加用户\")\n    @allure.severity(allure.severity_level.NORMAL)\n    def test_user_add(self):\n        \"\"\"正常添加用户\"\"\"\n        Logger().info(\"user add success\")\n        try:\n            self.user_add.user_add(username, password, email)\n        except NoSuchElementException:\n            Logger().error(\"user_add no find element\")\n        text = User_Add_Page_Locator().user_add_succee()\n>       assert \"添加用户成功\" == text\nE       assert '添加用户成功' == <selenium.webdriver.remote.webelement.WebElement (session=\"69748fe9d2ddd33955bd7dacae561f74\", element=\"fb3b6d75-c3ce-468d-b062-615a48c6e24c\")>\n\ntest_case\\test_002_user_add.py:42: AssertionError",
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'WebElement' object is not subscriptable",
+  "statusTrace" : "self = <test_case.test_002_user_add.Test_User_add object at 0x00000000039F23D0>\n\n    @allure.story(\"正常添加用户\")\n    @allure.severity(allure.severity_level.NORMAL)\n    def test_user_add(self):\n        \"\"\"正常添加用户\"\"\"\n        Logger().info(\"user add success\")\n        try:\n            self.user_add.user_add(username, password, email)\n        except NoSuchElementException:\n            Logger().error(\"user_add no find element\")\n>       text = User_Add_Page_Locator().user_add_succee()[0].text\nE       TypeError: 'WebElement' object is not subscriptable\n\ntest_case\\test_002_user_add.py:41: TypeError",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -22,9 +22,9 @@
   "beforeStages" : [ {
     "name" : "start_driver",
     "time" : {
-      "start" : 1663636561468,
-      "stop" : 1663636567929,
-      "duration" : 6461
+      "start" : 1663637806045,
+      "stop" : 1663637812555,
+      "duration" : 6510
     },
     "status" : "passed",
     "steps" : [ ],
@@ -37,8 +37,8 @@
   }, {
     "name" : "_xunit_setup_class_fixture_Test_User_add",
     "time" : {
-      "start" : 1663636578106,
-      "stop" : 1663636578106,
+      "start" : 1663637822776,
+      "stop" : 1663637822776,
       "duration" : 0
     },
     "status" : "passed",
@@ -52,14 +52,14 @@
   } ],
   "testStage" : {
     "description" : "正常添加用户",
-    "status" : "failed",
-    "statusMessage" : "AssertionError: assert '添加用户成功' == <selenium.webdriver.remote.webelement.WebElement (session=\"69748fe9d2ddd33955bd7dacae561f74\", element=\"fb3b6d75-c3ce-468d-b062-615a48c6e24c\")>",
-    "statusTrace" : "self = <test_case.test_002_user_add.Test_User_add object at 0x00000000039D7EB0>\n\n    @allure.story(\"正常添加用户\")\n    @allure.severity(allure.severity_level.NORMAL)\n    def test_user_add(self):\n        \"\"\"正常添加用户\"\"\"\n        Logger().info(\"user add success\")\n        try:\n            self.user_add.user_add(username, password, email)\n        except NoSuchElementException:\n            Logger().error(\"user_add no find element\")\n        text = User_Add_Page_Locator().user_add_succee()\n>       assert \"添加用户成功\" == text\nE       assert '添加用户成功' == <selenium.webdriver.remote.webelement.WebElement (session=\"69748fe9d2ddd33955bd7dacae561f74\", element=\"fb3b6d75-c3ce-468d-b062-615a48c6e24c\")>\n\ntest_case\\test_002_user_add.py:42: AssertionError",
+    "status" : "broken",
+    "statusMessage" : "TypeError: 'WebElement' object is not subscriptable",
+    "statusTrace" : "self = <test_case.test_002_user_add.Test_User_add object at 0x00000000039F23D0>\n\n    @allure.story(\"正常添加用户\")\n    @allure.severity(allure.severity_level.NORMAL)\n    def test_user_add(self):\n        \"\"\"正常添加用户\"\"\"\n        Logger().info(\"user add success\")\n        try:\n            self.user_add.user_add(username, password, email)\n        except NoSuchElementException:\n            Logger().error(\"user_add no find element\")\n>       text = User_Add_Page_Locator().user_add_succee()[0].text\nE       TypeError: 'WebElement' object is not subscriptable\n\ntest_case\\test_002_user_add.py:41: TypeError",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "477e98a2158b32de",
+      "uid" : "dc6c8517d4ecf6c2",
       "name" : "log",
-      "source" : "477e98a2158b32de.txt",
+      "source" : "dc6c8517d4ecf6c2.txt",
       "type" : "text/plain",
       "size" : 69
     } ],
@@ -72,9 +72,9 @@
   "afterStages" : [ {
     "name" : "_xunit_setup_class_fixture_Test_User_add::0",
     "time" : {
-      "start" : 1663636594999,
-      "stop" : 1663636595159,
-      "duration" : 160
+      "start" : 1663637839654,
+      "stop" : 1663637839836,
+      "duration" : 182
     },
     "status" : "passed",
     "steps" : [ ],
@@ -87,9 +87,9 @@
   }, {
     "name" : "start_driver::0",
     "time" : {
-      "start" : 1663636595160,
-      "stop" : 1663636597603,
-      "duration" : 2443
+      "start" : 1663637839837,
+      "stop" : 1663637843318,
+      "duration" : 3481
     },
     "status" : "passed",
     "steps" : [ ],
@@ -120,7 +120,7 @@
     "value" : "PC-201903070025"
   }, {
     "name" : "thread",
-    "value" : "5692-MainThread"
+    "value" : "4996-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -142,6 +142,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e3f3061f06ba13d3.json",
+  "source" : "2ee2f1c358f3a6a1.json",
   "parameterValues" : [ ]
 }

@@ -1,42 +1,53 @@
-#封装发送邮件的方法
+#封装发送邮件
 #作者：张旭东
-import smtplib
+from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-from email.header import Header
-import os
+import smtplib
 
 
-#发送邮件报告
-def send_mail(latest_report):
-    f=open(latest_report,'rb')
-    mail_content=f.read()
-    f.close()
+#初始化
+class SendEmail:
+    def __init__(self,smtp_addr,username,password,recv,title,content=None,file=None):
+        self.smtp_addr = smtp_addr
+        self.username = username
+        self.password = password
+        self.recv = recv
+        self.title = title
+        self.content = content
+        self.file = file
+#发送邮件方法
+    def send_mail(self):
+        #MIME
+        msg = MIMEMultipart()
+        #初始化邮件信息
+        msg.attach(MIMEText(self.content,_charset="utf-8"))
+        msg["Subject"] = self.title
+        msg["From"] = self.username
+        msg["To"] = self.recv
+        #邮件附件
+        #判断是否有附件
+        if self.file:
+        #MIMEText读取文件
+            att = MIMEText(open(self.file).read())
+        #设置内容类型
+            att["Content-Type"] = 'application/octet-stream'
+        #设置附件头
+            att["Content-Disposition"] = 'attachment;filename="%s"'%self.file
+        #将内容附加到邮件主题中
+            msg.attach(att)
+        #登录邮件服务器
+        self.smtp = smtplib.SMTP_SSL(self.smtp_addr,port=465)
+        self.smtp.login(self.username,self.password)
+        #发送邮件
+        self.smtp.sendmail(self.username,self.recv,msg.as_string())
 
-    smtpserver='smtp.qq.com'
-    user='892927017@qq.com'
-    password='mvwetpykwlejbdge'
 
-    sender='892927017@qq.com'
-    receives='zxd_20210330@163.com'
-
-    subject='web selenium 自动化测试报告'
-
-    msg = MIMEText(mail_content,'html','utf-8')
-    msg['Subject'] = Header(subject,'utf-8')
-    msg['From'] = sender
-    msg['To'] = ','.join(receives)
-
-    smtp = smtplib.SMTP_SSL(smtpserver,465)
-    smtp.helo(smtpserver)
-    smtp.ehlo(smtpserver)
-    smtp.login(user,password)
-
-    smtp.sendmail(sender,receives,msg.as_string())
-    smtp.quit()
-
-#查找最新报告
-def latest_report(report_dir):
-    lists = os.listdir(report_dir)
-    lists.sort(key=lambda fn: os.path.getatime(report_dir + '\\' + fn))
-    file = os.path.join(report_dir, lists[-1])
-    return file
+if __name__ == '__main__':
+    from config.conf import ConfigYaml
+    email_info = ConfigYaml().get_email_info()
+    smtp_addr = email_info['smtpserver']
+    username = email_info['username']
+    password = email_info['password']
+    recv = email_info['receiver']
+    email = SendEmail(smtp_addr,username,password,recv,'测试')
+    email.send_mail()

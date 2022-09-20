@@ -1,5 +1,5 @@
 {
-  "uid" : "3b3bff2dfcbbba0e",
+  "uid" : "ac0010c3ef225f3a",
   "name" : "test_user_add",
   "fullName" : "test_case.test_002_user_add.Test_User_add#test_user_add",
   "historyId" : "84039d43224d4034e83312c8ca354a99",
@@ -53,9 +53,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "2b4ac98050ff4f99",
+      "uid" : "a5f438531967bf2b",
       "name" : "log",
-      "source" : "2b4ac98050ff4f99.txt",
+      "source" : "a5f438531967bf2b.txt",
       "type" : "text/plain",
       "size" : 69
     } ],
@@ -138,6 +138,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3b3bff2dfcbbba0e.json",
+  "source" : "ac0010c3ef225f3a.json",
   "parameterValues" : [ ]
 }

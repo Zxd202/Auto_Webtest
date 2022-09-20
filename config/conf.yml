@@ -2,3 +2,10 @@
 #url ip 地址
 #测试环境
 ipaddress: 43.138.61.199:8899/#/login
+
+#邮件配置信息
+email:
+  smtpserver: "smtp.qq.com"
+  username: "892927017@qq.com"
+  password: "nobxxhngjnrabcgc"
+  receiver: "zxd_20210330@163.com"

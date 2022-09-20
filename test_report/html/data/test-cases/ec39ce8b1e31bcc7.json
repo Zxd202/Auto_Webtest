@@ -1,12 +1,12 @@
 {
-  "uid" : "d35feed3412c695e",
+  "uid" : "ec39ce8b1e31bcc7",
   "name" : "test_login1_normal",
   "fullName" : "test_case.test_001_login.Test_Login#test_login1_normal",
   "historyId" : "5ef76bccef16039bde05631a24b8bd12",
   "time" : {
-    "start" : 1663636567932,
-    "stop" : 1663636578102,
-    "duration" : 10170
+    "start" : 1663559788854,
+    "stop" : 1663559799023,
+    "duration" : 10169
   },
   "description" : "username and passwd is normal",
   "descriptionHtml" : "<p>username and passwd is normal</p>\n",
@@ -20,9 +20,9 @@
   "beforeStages" : [ {
     "name" : "start_driver",
     "time" : {
-      "start" : 1663636561468,
-      "stop" : 1663636567929,
-      "duration" : 6461
+      "start" : 1663559782453,
+      "stop" : 1663559788851,
+      "duration" : 6398
     },
     "status" : "passed",
     "steps" : [ ],
@@ -38,9 +38,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "3506903f75448b",
+      "uid" : "8277a2eebe9adba",
       "name" : "log",
-      "source" : "3506903f75448b.txt",
+      "source" : "8277a2eebe9adba.txt",
       "type" : "text/plain",
       "size" : 146
     } ],
@@ -53,9 +53,9 @@
   "afterStages" : [ {
     "name" : "start_driver::0",
     "time" : {
-      "start" : 1663636595160,
-      "stop" : 1663636597603,
-      "duration" : 2443
+      "start" : 1663559816052,
+      "stop" : 1663559818266,
+      "duration" : 2214
     },
     "status" : "passed",
     "steps" : [ ],
@@ -70,11 +70,11 @@
     "name" : "story",
     "value" : "登录用例"
   }, {
-    "name" : "severity",
-    "value" : "blocker"
-  }, {
     "name" : "suite",
     "value" : "登录测试用例"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
   }, {
     "name" : "parentSuite",
     "value" : "test_case"
@@ -86,7 +86,7 @@
     "value" : "PC-201903070025"
   }, {
     "name" : "thread",
-    "value" : "5692-MainThread"
+    "value" : "5896-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -108,6 +108,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d35feed3412c695e.json",
+  "source" : "ec39ce8b1e31bcc7.json",
   "parameterValues" : [ ]
 }

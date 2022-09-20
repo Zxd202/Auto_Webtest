@@ -37,4 +37,4 @@ class ConfigYaml:
 
 if __name__ == '__main__':
     conf_read = ConfigYaml()
-    print(conf_read.get_url())
+    print(conf_read.get_email_info())

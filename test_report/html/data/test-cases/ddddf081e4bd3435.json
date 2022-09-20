@@ -1,12 +1,12 @@
 {
-  "uid" : "f724c86145a18309",
+  "uid" : "ddddf081e4bd3435",
   "name" : "test_login1_normal",
   "fullName" : "test_case.test_001_login.Test_Login#test_login1_normal",
   "historyId" : "5ef76bccef16039bde05631a24b8bd12",
   "time" : {
-    "start" : 1663550879143,
-    "stop" : 1663550889332,
-    "duration" : 10189
+    "start" : 1663342907959,
+    "stop" : 1663342918174,
+    "duration" : 10215
   },
   "description" : "username and passwd is normal",
   "descriptionHtml" : "<p>username and passwd is normal</p>\n",
@@ -20,8 +20,8 @@
   "beforeStages" : [ {
     "name" : "start_driver",
     "time" : {
-      "start" : 1663550872764,
-      "stop" : 1663550879138,
+      "start" : 1663342901582,
+      "stop" : 1663342907956,
       "duration" : 6374
     },
     "status" : "passed",
@@ -38,9 +38,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "aee234901fe5f1cf",
+      "uid" : "7634c8bc83681b27",
       "name" : "log",
-      "source" : "aee234901fe5f1cf.txt",
+      "source" : "7634c8bc83681b27.txt",
       "type" : "text/plain",
       "size" : 146
     } ],
@@ -53,9 +53,9 @@
   "afterStages" : [ {
     "name" : "start_driver::0",
     "time" : {
-      "start" : 1663550904874,
-      "stop" : 1663550907083,
-      "duration" : 2209
+      "start" : 1663342933547,
+      "stop" : 1663342935676,
+      "duration" : 2129
     },
     "status" : "passed",
     "steps" : [ ],
@@ -67,14 +67,14 @@
     "hasContent" : false
   } ],
   "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
     "name" : "suite",
     "value" : "登录测试用例"
   }, {
     "name" : "story",
     "value" : "登录用例"
-  }, {
-    "name" : "severity",
-    "value" : "blocker"
   }, {
     "name" : "parentSuite",
     "value" : "test_case"
@@ -86,7 +86,7 @@
     "value" : "PC-201903070025"
   }, {
     "name" : "thread",
-    "value" : "2096-MainThread"
+    "value" : "4280-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -108,6 +108,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f724c86145a18309.json",
+  "source" : "ddddf081e4bd3435.json",
   "parameterValues" : [ ]
 }

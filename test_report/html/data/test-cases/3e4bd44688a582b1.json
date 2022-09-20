@@ -1,12 +1,12 @@
 {
-  "uid" : "7392c6c1d16e5375",
+  "uid" : "3e4bd44688a582b1",
   "name" : "test_login1_normal",
   "fullName" : "test_case.test_001_login.Test_Login#test_login1_normal",
   "historyId" : "5ef76bccef16039bde05631a24b8bd12",
   "time" : {
-    "start" : 1663293183209,
-    "stop" : 1663293193422,
-    "duration" : 10213
+    "start" : 1663636567932,
+    "stop" : 1663636578102,
+    "duration" : 10170
   },
   "description" : "username and passwd is normal",
   "descriptionHtml" : "<p>username and passwd is normal</p>\n",
@@ -20,9 +20,9 @@
   "beforeStages" : [ {
     "name" : "start_driver",
     "time" : {
-      "start" : 1663293176544,
-      "stop" : 1663293183206,
-      "duration" : 6662
+      "start" : 1663636561468,
+      "stop" : 1663636567929,
+      "duration" : 6461
     },
     "status" : "passed",
     "steps" : [ ],
@@ -38,9 +38,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "219520255251754",
+      "uid" : "c010b912c6ea181d",
       "name" : "log",
-      "source" : "219520255251754.txt",
+      "source" : "c010b912c6ea181d.txt",
       "type" : "text/plain",
       "size" : 146
     } ],
@@ -53,9 +53,9 @@
   "afterStages" : [ {
     "name" : "start_driver::0",
     "time" : {
-      "start" : 1663293208738,
-      "stop" : 1663293211071,
-      "duration" : 2333
+      "start" : 1663636595160,
+      "stop" : 1663636597603,
+      "duration" : 2443
     },
     "status" : "passed",
     "steps" : [ ],
@@ -86,7 +86,7 @@
     "value" : "PC-201903070025"
   }, {
     "name" : "thread",
-    "value" : "3292-MainThread"
+    "value" : "5692-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -108,6 +108,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7392c6c1d16e5375.json",
+  "source" : "3e4bd44688a582b1.json",
   "parameterValues" : [ ]
 }

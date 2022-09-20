@@ -1,18 +1,18 @@
 {
-  "uid" : "9413a90da923a62",
+  "uid" : "bf83f3784676a9b9",
   "name" : "test_user_add",
   "fullName" : "test_case.test_002_user_add.Test_User_add#test_user_add",
   "historyId" : "84039d43224d4034e83312c8ca354a99",
   "time" : {
-    "start" : 1663637659624,
-    "stop" : 1663637674851,
-    "duration" : 15227
+    "start" : 1663559799027,
+    "stop" : 1663559814260,
+    "duration" : 15233
   },
   "description" : "正常添加用户",
   "descriptionHtml" : "<p>正常添加用户</p>\n",
   "status" : "failed",
-  "statusMessage" : "AssertionError: assert '添加用户成功' == <selenium.webdriver.remote.webelement.WebElement (session=\"e90251e63e7f97867f963a012a225489\", element=\"a3ebe7a9-ad58-4af1-bbce-74a6935c16be\")>",
-  "statusTrace" : "self = <test_case.test_002_user_add.Test_User_add object at 0x0000000003B47F10>\n\n    @allure.story(\"正常添加用户\")\n    @allure.severity(allure.severity_level.NORMAL)\n    def test_user_add(self):\n        \"\"\"正常添加用户\"\"\"\n        Logger().info(\"user add success\")\n        try:\n            self.user_add.user_add(username, password, email)\n        except NoSuchElementException:\n            Logger().error(\"user_add no find element\")\n        text = User_Add_Page_Locator().user_add_succee()\n        print(text)\n>       assert \"添加用户成功\" == text\nE       assert '添加用户成功' == <selenium.webdriver.remote.webelement.WebElement (session=\"e90251e63e7f97867f963a012a225489\", element=\"a3ebe7a9-ad58-4af1-bbce-74a6935c16be\")>\n\ntest_case\\test_002_user_add.py:43: AssertionError",
+  "statusMessage" : "AssertionError: assert <selenium.webdriver.remote.webelement.WebElement (session=\"6fcb26a0b1b02e4a5c477542b76602f3\", element=\"9f22566f-3a09-4d6d-82f6-76a9de503563\")> == '添加用户成功'",
+  "statusTrace" : "self = <test_case.test_002_user_add.Test_User_add object at 0x0000000003927EB0>\n\n    @allure.story(\"正常添加用户\")\n    @allure.severity(allure.severity_level.NORMAL)\n    def test_user_add(self):\n        \"\"\"正常添加用户\"\"\"\n        Logger().info(\"user add success\")\n        try:\n            self.user_add.user_add(username, password, email)\n        except NoSuchElementException:\n            Logger().error(\"user_add no find element\")\n        text = User_Add_Page_Locator().user_add_succee()\n>       assert text == \"添加用户成功\"\nE       assert <selenium.webdriver.remote.webelement.WebElement (session=\"6fcb26a0b1b02e4a5c477542b76602f3\", element=\"9f22566f-3a09-4d6d-82f6-76a9de503563\")> == '添加用户成功'\n\ntest_case\\test_002_user_add.py:43: AssertionError",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -22,9 +22,9 @@
   "beforeStages" : [ {
     "name" : "start_driver",
     "time" : {
-      "start" : 1663637642969,
-      "stop" : 1663637649410,
-      "duration" : 6441
+      "start" : 1663559782453,
+      "stop" : 1663559788851,
+      "duration" : 6398
     },
     "status" : "passed",
     "steps" : [ ],
@@ -37,8 +37,8 @@
   }, {
     "name" : "_xunit_setup_class_fixture_Test_User_add",
     "time" : {
-      "start" : 1663637659623,
-      "stop" : 1663637659623,
+      "start" : 1663559799027,
+      "stop" : 1663559799027,
       "duration" : 0
     },
     "status" : "passed",
@@ -53,13 +53,13 @@
   "testStage" : {
     "description" : "正常添加用户",
     "status" : "failed",
-    "statusMessage" : "AssertionError: assert '添加用户成功' == <selenium.webdriver.remote.webelement.WebElement (session=\"e90251e63e7f97867f963a012a225489\", element=\"a3ebe7a9-ad58-4af1-bbce-74a6935c16be\")>",
-    "statusTrace" : "self = <test_case.test_002_user_add.Test_User_add object at 0x0000000003B47F10>\n\n    @allure.story(\"正常添加用户\")\n    @allure.severity(allure.severity_level.NORMAL)\n    def test_user_add(self):\n        \"\"\"正常添加用户\"\"\"\n        Logger().info(\"user add success\")\n        try:\n            self.user_add.user_add(username, password, email)\n        except NoSuchElementException:\n            Logger().error(\"user_add no find element\")\n        text = User_Add_Page_Locator().user_add_succee()\n        print(text)\n>       assert \"添加用户成功\" == text\nE       assert '添加用户成功' == <selenium.webdriver.remote.webelement.WebElement (session=\"e90251e63e7f97867f963a012a225489\", element=\"a3ebe7a9-ad58-4af1-bbce-74a6935c16be\")>\n\ntest_case\\test_002_user_add.py:43: AssertionError",
+    "statusMessage" : "AssertionError: assert <selenium.webdriver.remote.webelement.WebElement (session=\"6fcb26a0b1b02e4a5c477542b76602f3\", element=\"9f22566f-3a09-4d6d-82f6-76a9de503563\")> == '添加用户成功'",
+    "statusTrace" : "self = <test_case.test_002_user_add.Test_User_add object at 0x0000000003927EB0>\n\n    @allure.story(\"正常添加用户\")\n    @allure.severity(allure.severity_level.NORMAL)\n    def test_user_add(self):\n        \"\"\"正常添加用户\"\"\"\n        Logger().info(\"user add success\")\n        try:\n            self.user_add.user_add(username, password, email)\n        except NoSuchElementException:\n            Logger().error(\"user_add no find element\")\n        text = User_Add_Page_Locator().user_add_succee()\n>       assert text == \"添加用户成功\"\nE       assert <selenium.webdriver.remote.webelement.WebElement (session=\"6fcb26a0b1b02e4a5c477542b76602f3\", element=\"9f22566f-3a09-4d6d-82f6-76a9de503563\")> == '添加用户成功'\n\ntest_case\\test_002_user_add.py:43: AssertionError",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "30e357eb76fe5492",
+      "uid" : "ee8064c0d9ab0976",
       "name" : "log",
-      "source" : "30e357eb76fe5492.txt",
+      "source" : "ee8064c0d9ab0976.txt",
       "type" : "text/plain",
       "size" : 69
     } ],
@@ -72,9 +72,9 @@
   "afterStages" : [ {
     "name" : "_xunit_setup_class_fixture_Test_User_add::0",
     "time" : {
-      "start" : 1663637676441,
-      "stop" : 1663637676606,
-      "duration" : 165
+      "start" : 1663559815860,
+      "stop" : 1663559816032,
+      "duration" : 172
     },
     "status" : "passed",
     "steps" : [ ],
@@ -87,9 +87,9 @@
   }, {
     "name" : "start_driver::0",
     "time" : {
-      "start" : 1663637676608,
-      "stop" : 1663637678884,
-      "duration" : 2276
+      "start" : 1663559816052,
+      "stop" : 1663559818266,
+      "duration" : 2214
     },
     "status" : "passed",
     "steps" : [ ],
@@ -120,7 +120,7 @@
     "value" : "PC-201903070025"
   }, {
     "name" : "thread",
-    "value" : "4880-MainThread"
+    "value" : "5896-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -142,6 +142,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9413a90da923a62.json",
+  "source" : "bf83f3784676a9b9.json",
   "parameterValues" : [ ]
 }

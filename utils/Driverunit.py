@@ -27,6 +27,9 @@ class Driver(object):
             cls.option.add_argument('no-sandbox')
             # 大量渲染时候写入/tmp而非/dev/shm
             cls.option.add_argument('disable-dev-shm-usage')
+            #下面两行新增
+            cls.option.add_argument('disable-gpu')
+            cls.option.add_argument('--remote-debugging-port=9222')
             # 指定驱动路径
             cls.__driver = webdriver.Chrome(options=cls.option)
             cls.__driver = webdriver.Chrome()

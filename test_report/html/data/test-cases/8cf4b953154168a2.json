@@ -1,12 +1,12 @@
 {
-  "uid" : "990b3978370471d2",
+  "uid" : "8cf4b953154168a2",
   "name" : "test_login1_normal",
   "fullName" : "test_case.test_001_login.Test_Login#test_login1_normal",
   "historyId" : "5ef76bccef16039bde05631a24b8bd12",
   "time" : {
-    "start" : 1663342907959,
-    "stop" : 1663342918174,
-    "duration" : 10215
+    "start" : 1663293183209,
+    "stop" : 1663293193422,
+    "duration" : 10213
   },
   "description" : "username and passwd is normal",
   "descriptionHtml" : "<p>username and passwd is normal</p>\n",
@@ -20,9 +20,9 @@
   "beforeStages" : [ {
     "name" : "start_driver",
     "time" : {
-      "start" : 1663342901582,
-      "stop" : 1663342907956,
-      "duration" : 6374
+      "start" : 1663293176544,
+      "stop" : 1663293183206,
+      "duration" : 6662
     },
     "status" : "passed",
     "steps" : [ ],
@@ -38,9 +38,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "962b9596001ac700",
+      "uid" : "617a121d609463ca",
       "name" : "log",
-      "source" : "962b9596001ac700.txt",
+      "source" : "617a121d609463ca.txt",
       "type" : "text/plain",
       "size" : 146
     } ],
@@ -53,9 +53,9 @@
   "afterStages" : [ {
     "name" : "start_driver::0",
     "time" : {
-      "start" : 1663342933547,
-      "stop" : 1663342935676,
-      "duration" : 2129
+      "start" : 1663293208738,
+      "stop" : 1663293211071,
+      "duration" : 2333
     },
     "status" : "passed",
     "steps" : [ ],
@@ -67,14 +67,14 @@
     "hasContent" : false
   } ],
   "labels" : [ {
+    "name" : "story",
+    "value" : "登录用例"
+  }, {
     "name" : "severity",
     "value" : "blocker"
   }, {
     "name" : "suite",
     "value" : "登录测试用例"
-  }, {
-    "name" : "story",
-    "value" : "登录用例"
   }, {
     "name" : "parentSuite",
     "value" : "test_case"
@@ -86,7 +86,7 @@
     "value" : "PC-201903070025"
   }, {
     "name" : "thread",
-    "value" : "4280-MainThread"
+    "value" : "3292-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -108,6 +108,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "990b3978370471d2.json",
+  "source" : "8cf4b953154168a2.json",
   "parameterValues" : [ ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "70130a124efcaef7",
+  "uid" : "4ff68ebfc8613524",
   "name" : "test_user_add",
   "fullName" : "test_case.test_002_user_add.Test_User_add#test_user_add",
   "historyId" : "84039d43224d4034e83312c8ca354a99",
   "time" : {
-    "start" : 1663637977933,
-    "stop" : 1663637993395,
-    "duration" : 15462
+    "start" : 1663681070898,
+    "stop" : 1663681086297,
+    "duration" : 15399
   },
   "description" : "正常添加用户",
   "descriptionHtml" : "<p>正常添加用户</p>\n",
@@ -15,14 +15,14 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 8,
+  "retriesCount" : 9,
   "retriesStatusChange" : true,
   "beforeStages" : [ {
     "name" : "start_driver",
     "time" : {
-      "start" : 1663637961304,
-      "stop" : 1663637967711,
-      "duration" : 6407
+      "start" : 1663681054245,
+      "stop" : 1663681060634,
+      "duration" : 6389
     },
     "status" : "passed",
     "steps" : [ ],
@@ -35,8 +35,8 @@
   }, {
     "name" : "_xunit_setup_class_fixture_Test_User_add",
     "time" : {
-      "start" : 1663637977933,
-      "stop" : 1663637977933,
+      "start" : 1663681070897,
+      "stop" : 1663681070897,
       "duration" : 0
     },
     "status" : "passed",
@@ -53,9 +53,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "2ed60cf0fa856c9a",
+      "uid" : "74902421ba9620f2",
       "name" : "log",
-      "source" : "2ed60cf0fa856c9a.txt",
+      "source" : "74902421ba9620f2.txt",
       "type" : "text/plain",
       "size" : 69
     } ],
@@ -68,9 +68,9 @@
   "afterStages" : [ {
     "name" : "_xunit_setup_class_fixture_Test_User_add::0",
     "time" : {
-      "start" : 1663637993396,
-      "stop" : 1663637993554,
-      "duration" : 158
+      "start" : 1663681086298,
+      "stop" : 1663681086480,
+      "duration" : 182
     },
     "status" : "passed",
     "steps" : [ ],
@@ -83,9 +83,9 @@
   }, {
     "name" : "start_driver::0",
     "time" : {
-      "start" : 1663637993555,
-      "stop" : 1663637995832,
-      "duration" : 2277
+      "start" : 1663681086482,
+      "stop" : 1663681088652,
+      "duration" : 2170
     },
     "status" : "passed",
     "steps" : [ ],
@@ -116,7 +116,7 @@
     "value" : "PC-201903070025"
   }, {
     "name" : "thread",
-    "value" : "4276-MainThread"
+    "value" : "332-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -137,7 +137,15 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "e2d6abf8412bf664",
+      "uid" : "9cde1340746e7308",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663637977933,
+        "stop" : 1663637993395,
+        "duration" : 15462
+      }
+    }, {
+      "uid" : "2ee2f1c358f3a6a1",
       "status" : "broken",
       "statusDetails" : "TypeError: 'WebElement' object is not subscriptable",
       "time" : {
@@ -146,7 +154,7 @@
         "duration" : 15274
       }
     }, {
-      "uid" : "9413a90da923a62",
+      "uid" : "8f5a721fd5463678",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert '添加用户成功' == <selenium.webdriver.remote.webelement.WebElement (session=\"e90251e63e7f97867f963a012a225489\", element=\"a3ebe7a9-ad58-4af1-bbce-74a6935c16be\")>",
       "time" : {
@@ -155,7 +163,7 @@
         "duration" : 15227
       }
     }, {
-      "uid" : "e3f3061f06ba13d3",
+      "uid" : "e5c0f635d3415fb8",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert '添加用户成功' == <selenium.webdriver.remote.webelement.WebElement (session=\"69748fe9d2ddd33955bd7dacae561f74\", element=\"fb3b6d75-c3ce-468d-b062-615a48c6e24c\")>",
       "time" : {
@@ -164,7 +172,7 @@
         "duration" : 15293
       }
     }, {
-      "uid" : "aba77e5b78bc5fa3",
+      "uid" : "bf83f3784676a9b9",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert <selenium.webdriver.remote.webelement.WebElement (session=\"6fcb26a0b1b02e4a5c477542b76602f3\", element=\"9f22566f-3a09-4d6d-82f6-76a9de503563\")> == '添加用户成功'",
       "time" : {
@@ -173,7 +181,7 @@
         "duration" : 15233
       }
     }, {
-      "uid" : "3b3bff2dfcbbba0e",
+      "uid" : "ac0010c3ef225f3a",
       "status" : "passed",
       "time" : {
         "start" : 1663550889354,
@@ -181,7 +189,7 @@
         "duration" : 15346
       }
     }, {
-      "uid" : "487bc834cf43e50b",
+      "uid" : "ce8cd414c654772",
       "status" : "passed",
       "time" : {
         "start" : 1663342918177,
@@ -189,7 +197,7 @@
         "duration" : 15370
       }
     }, {
-      "uid" : "d4c5b1bd883ac7eb",
+      "uid" : "70cf579f09170da5",
       "status" : "passed",
       "time" : {
         "start" : 1663342756314,
@@ -197,7 +205,7 @@
         "duration" : 15358
       }
     }, {
-      "uid" : "8f5887bd9772983d",
+      "uid" : "ae6bd4470a359748",
       "status" : "passed",
       "time" : {
         "start" : 1663293193426,
@@ -208,6 +216,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "70130a124efcaef7.json",
+  "source" : "4ff68ebfc8613524.json",
   "parameterValues" : [ ]
 }
