@@ -1,12 +1,12 @@
 {
-  "uid" : "da0cc015ad62f2a5",
+  "uid" : "5b5b97dac23cdfe5",
   "name" : "test_login1_normal",
   "fullName" : "test_case.test_001_login.Test_Login#test_login1_normal",
   "historyId" : "5ef76bccef16039bde05631a24b8bd12",
   "time" : {
-    "start" : 1663726593408,
-    "stop" : 1663726603575,
-    "duration" : 10167
+    "start" : 1663637812558,
+    "stop" : 1663637822772,
+    "duration" : 10214
   },
   "description" : "username and passwd is normal",
   "descriptionHtml" : "<p>username and passwd is normal</p>\n",
@@ -20,9 +20,9 @@
   "beforeStages" : [ {
     "name" : "start_driver",
     "time" : {
-      "start" : 1663726586904,
-      "stop" : 1663726593405,
-      "duration" : 6501
+      "start" : 1663637806045,
+      "stop" : 1663637812555,
+      "duration" : 6510
     },
     "status" : "passed",
     "steps" : [ ],
@@ -38,9 +38,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "92619fbd8d61d66",
+      "uid" : "13ae3538df369e33",
       "name" : "log",
-      "source" : "92619fbd8d61d66.txt",
+      "source" : "13ae3538df369e33.txt",
       "type" : "text/plain",
       "size" : 146
     } ],
@@ -53,9 +53,9 @@
   "afterStages" : [ {
     "name" : "start_driver::0",
     "time" : {
-      "start" : 1663726619083,
-      "stop" : 1663726622429,
-      "duration" : 3346
+      "start" : 1663637839837,
+      "stop" : 1663637843318,
+      "duration" : 3481
     },
     "status" : "passed",
     "steps" : [ ],
@@ -67,11 +67,11 @@
     "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
-    "name" : "severity",
-    "value" : "blocker"
-  }, {
     "name" : "suite",
     "value" : "登录测试用例"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
   }, {
     "name" : "story",
     "value" : "登录用例"
@@ -86,7 +86,7 @@
     "value" : "PC-201903070025"
   }, {
     "name" : "thread",
-    "value" : "6124-MainThread"
+    "value" : "4996-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -108,6 +108,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "da0cc015ad62f2a5.json",
+  "source" : "5b5b97dac23cdfe5.json",
   "parameterValues" : [ ]
 }

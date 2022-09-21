@@ -1,12 +1,12 @@
 {
-  "uid" : "986cfa4e5d25b268",
+  "uid" : "1aa21936ea1ca834",
   "name" : "test_login1_normal",
   "fullName" : "test_case.test_001_login.Test_Login#test_login1_normal",
   "historyId" : "5ef76bccef16039bde05631a24b8bd12",
   "time" : {
-    "start" : 1663559788854,
-    "stop" : 1663559799023,
-    "duration" : 10169
+    "start" : 1663550879143,
+    "stop" : 1663550889332,
+    "duration" : 10189
   },
   "description" : "username and passwd is normal",
   "descriptionHtml" : "<p>username and passwd is normal</p>\n",
@@ -20,9 +20,9 @@
   "beforeStages" : [ {
     "name" : "start_driver",
     "time" : {
-      "start" : 1663559782453,
-      "stop" : 1663559788851,
-      "duration" : 6398
+      "start" : 1663550872764,
+      "stop" : 1663550879138,
+      "duration" : 6374
     },
     "status" : "passed",
     "steps" : [ ],
@@ -38,9 +38,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "d687cc2e0770912d",
+      "uid" : "3f1459eec79f2538",
       "name" : "log",
-      "source" : "d687cc2e0770912d.txt",
+      "source" : "3f1459eec79f2538.txt",
       "type" : "text/plain",
       "size" : 146
     } ],
@@ -53,9 +53,9 @@
   "afterStages" : [ {
     "name" : "start_driver::0",
     "time" : {
-      "start" : 1663559816052,
-      "stop" : 1663559818266,
-      "duration" : 2214
+      "start" : 1663550904874,
+      "stop" : 1663550907083,
+      "duration" : 2209
     },
     "status" : "passed",
     "steps" : [ ],
@@ -67,11 +67,11 @@
     "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
-    "name" : "story",
-    "value" : "登录用例"
-  }, {
     "name" : "suite",
     "value" : "登录测试用例"
+  }, {
+    "name" : "story",
+    "value" : "登录用例"
   }, {
     "name" : "severity",
     "value" : "blocker"
@@ -86,7 +86,7 @@
     "value" : "PC-201903070025"
   }, {
     "name" : "thread",
-    "value" : "5896-MainThread"
+    "value" : "2096-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -108,6 +108,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "986cfa4e5d25b268.json",
+  "source" : "1aa21936ea1ca834.json",
   "parameterValues" : [ ]
 }

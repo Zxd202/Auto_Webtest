@@ -1,12 +1,12 @@
 {
-  "uid" : "d35574e676d24fe4",
+  "uid" : "f57a5da78ab3cd90",
   "name" : "test_login1_normal",
   "fullName" : "test_case.test_001_login.Test_Login#test_login1_normal",
   "historyId" : "5ef76bccef16039bde05631a24b8bd12",
   "time" : {
-    "start" : 1663637967714,
-    "stop" : 1663637977917,
-    "duration" : 10203
+    "start" : 1663293183209,
+    "stop" : 1663293193422,
+    "duration" : 10213
   },
   "description" : "username and passwd is normal",
   "descriptionHtml" : "<p>username and passwd is normal</p>\n",
@@ -20,9 +20,9 @@
   "beforeStages" : [ {
     "name" : "start_driver",
     "time" : {
-      "start" : 1663637961304,
-      "stop" : 1663637967711,
-      "duration" : 6407
+      "start" : 1663293176544,
+      "stop" : 1663293183206,
+      "duration" : 6662
     },
     "status" : "passed",
     "steps" : [ ],
@@ -38,9 +38,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "13610d17d08fad9a",
+      "uid" : "e893f2c9fece34fd",
       "name" : "log",
-      "source" : "13610d17d08fad9a.txt",
+      "source" : "e893f2c9fece34fd.txt",
       "type" : "text/plain",
       "size" : 146
     } ],
@@ -53,9 +53,9 @@
   "afterStages" : [ {
     "name" : "start_driver::0",
     "time" : {
-      "start" : 1663637993555,
-      "stop" : 1663637995832,
-      "duration" : 2277
+      "start" : 1663293208738,
+      "stop" : 1663293211071,
+      "duration" : 2333
     },
     "status" : "passed",
     "steps" : [ ],
@@ -67,11 +67,11 @@
     "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
-    "name" : "severity",
-    "value" : "blocker"
-  }, {
     "name" : "story",
     "value" : "登录用例"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
   }, {
     "name" : "suite",
     "value" : "登录测试用例"
@@ -86,7 +86,7 @@
     "value" : "PC-201903070025"
   }, {
     "name" : "thread",
-    "value" : "4276-MainThread"
+    "value" : "3292-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -108,6 +108,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d35574e676d24fe4.json",
+  "source" : "f57a5da78ab3cd90.json",
   "parameterValues" : [ ]
 }

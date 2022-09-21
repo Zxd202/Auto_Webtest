@@ -1,16 +1,18 @@
 {
-  "uid" : "2dd66f5e8d75a02b",
+  "uid" : "c552b5cbc4042dde",
   "name" : "test_user_add",
   "fullName" : "test_case.test_002_user_add.Test_User_add#test_user_add",
   "historyId" : "84039d43224d4034e83312c8ca354a99",
   "time" : {
-    "start" : 1663726533719,
-    "stop" : 1663726549027,
-    "duration" : 15308
+    "start" : 1663637822776,
+    "stop" : 1663637838050,
+    "duration" : 15274
   },
   "description" : "正常添加用户",
   "descriptionHtml" : "<p>正常添加用户</p>\n",
-  "status" : "passed",
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'WebElement' object is not subscriptable",
+  "statusTrace" : "self = <test_case.test_002_user_add.Test_User_add object at 0x00000000039F23D0>\n\n    @allure.story(\"正常添加用户\")\n    @allure.severity(allure.severity_level.NORMAL)\n    def test_user_add(self):\n        \"\"\"正常添加用户\"\"\"\n        Logger().info(\"user add success\")\n        try:\n            self.user_add.user_add(username, password, email)\n        except NoSuchElementException:\n            Logger().error(\"user_add no find element\")\n>       text = User_Add_Page_Locator().user_add_succee()[0].text\nE       TypeError: 'WebElement' object is not subscriptable\n\ntest_case\\test_002_user_add.py:41: TypeError",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -20,9 +22,9 @@
   "beforeStages" : [ {
     "name" : "start_driver",
     "time" : {
-      "start" : 1663726517158,
-      "stop" : 1663726523538,
-      "duration" : 6380
+      "start" : 1663637806045,
+      "stop" : 1663637812555,
+      "duration" : 6510
     },
     "status" : "passed",
     "steps" : [ ],
@@ -35,9 +37,9 @@
   }, {
     "name" : "_xunit_setup_class_fixture_Test_User_add",
     "time" : {
-      "start" : 1663726533718,
-      "stop" : 1663726533719,
-      "duration" : 1
+      "start" : 1663637822776,
+      "stop" : 1663637822776,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -50,12 +52,14 @@
   } ],
   "testStage" : {
     "description" : "正常添加用户",
-    "status" : "passed",
+    "status" : "broken",
+    "statusMessage" : "TypeError: 'WebElement' object is not subscriptable",
+    "statusTrace" : "self = <test_case.test_002_user_add.Test_User_add object at 0x00000000039F23D0>\n\n    @allure.story(\"正常添加用户\")\n    @allure.severity(allure.severity_level.NORMAL)\n    def test_user_add(self):\n        \"\"\"正常添加用户\"\"\"\n        Logger().info(\"user add success\")\n        try:\n            self.user_add.user_add(username, password, email)\n        except NoSuchElementException:\n            Logger().error(\"user_add no find element\")\n>       text = User_Add_Page_Locator().user_add_succee()[0].text\nE       TypeError: 'WebElement' object is not subscriptable\n\ntest_case\\test_002_user_add.py:41: TypeError",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "42ca1f8104a6de7a",
+      "uid" : "f2d2e028ebd69c73",
       "name" : "log",
-      "source" : "42ca1f8104a6de7a.txt",
+      "source" : "f2d2e028ebd69c73.txt",
       "type" : "text/plain",
       "size" : 69
     } ],
@@ -63,14 +67,14 @@
     "stepsCount" : 0,
     "hasContent" : true,
     "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : true
   },
   "afterStages" : [ {
     "name" : "_xunit_setup_class_fixture_Test_User_add::0",
     "time" : {
-      "start" : 1663726549027,
-      "stop" : 1663726549206,
-      "duration" : 179
+      "start" : 1663637839654,
+      "stop" : 1663637839836,
+      "duration" : 182
     },
     "status" : "passed",
     "steps" : [ ],
@@ -83,9 +87,9 @@
   }, {
     "name" : "start_driver::0",
     "time" : {
-      "start" : 1663726549208,
-      "stop" : 1663726551522,
-      "duration" : 2314
+      "start" : 1663637839837,
+      "stop" : 1663637843318,
+      "duration" : 3481
     },
     "status" : "passed",
     "steps" : [ ],
@@ -116,7 +120,7 @@
     "value" : "PC-201903070025"
   }, {
     "name" : "thread",
-    "value" : "4116-MainThread"
+    "value" : "4996-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -138,6 +142,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2dd66f5e8d75a02b.json",
+  "source" : "c552b5cbc4042dde.json",
   "parameterValues" : [ ]
 }

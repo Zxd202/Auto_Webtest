@@ -1,12 +1,12 @@
 {
-  "uid" : "7b0a678f21c5d964",
+  "uid" : "79dfdc46a8a9b9d9",
   "name" : "test_user_add",
   "fullName" : "test_case.test_002_user_add.Test_User_add#test_user_add",
   "historyId" : "84039d43224d4034e83312c8ca354a99",
   "time" : {
-    "start" : 1663726603578,
-    "stop" : 1663726618889,
-    "duration" : 15311
+    "start" : 1663637977933,
+    "stop" : 1663637993395,
+    "duration" : 15462
   },
   "description" : "正常添加用户",
   "descriptionHtml" : "<p>正常添加用户</p>\n",
@@ -20,9 +20,9 @@
   "beforeStages" : [ {
     "name" : "start_driver",
     "time" : {
-      "start" : 1663726586904,
-      "stop" : 1663726593405,
-      "duration" : 6501
+      "start" : 1663637961304,
+      "stop" : 1663637967711,
+      "duration" : 6407
     },
     "status" : "passed",
     "steps" : [ ],
@@ -35,8 +35,8 @@
   }, {
     "name" : "_xunit_setup_class_fixture_Test_User_add",
     "time" : {
-      "start" : 1663726603578,
-      "stop" : 1663726603578,
+      "start" : 1663637977933,
+      "stop" : 1663637977933,
       "duration" : 0
     },
     "status" : "passed",
@@ -53,9 +53,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "2c35159a1122abde",
+      "uid" : "426d49dcf16835fc",
       "name" : "log",
-      "source" : "2c35159a1122abde.txt",
+      "source" : "426d49dcf16835fc.txt",
       "type" : "text/plain",
       "size" : 69
     } ],
@@ -68,9 +68,9 @@
   "afterStages" : [ {
     "name" : "_xunit_setup_class_fixture_Test_User_add::0",
     "time" : {
-      "start" : 1663726618889,
-      "stop" : 1663726619066,
-      "duration" : 177
+      "start" : 1663637993396,
+      "stop" : 1663637993554,
+      "duration" : 158
     },
     "status" : "passed",
     "steps" : [ ],
@@ -83,9 +83,9 @@
   }, {
     "name" : "start_driver::0",
     "time" : {
-      "start" : 1663726619083,
-      "stop" : 1663726622429,
-      "duration" : 3346
+      "start" : 1663637993555,
+      "stop" : 1663637995832,
+      "duration" : 2277
     },
     "status" : "passed",
     "steps" : [ ],
@@ -116,7 +116,7 @@
     "value" : "PC-201903070025"
   }, {
     "name" : "thread",
-    "value" : "6124-MainThread"
+    "value" : "4276-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -138,6 +138,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7b0a678f21c5d964.json",
+  "source" : "79dfdc46a8a9b9d9.json",
   "parameterValues" : [ ]
 }

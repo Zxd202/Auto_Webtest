@@ -1,15 +1,15 @@
 {
-  "uid" : "78cc5036e4482483",
-  "name" : "test_user_add",
-  "fullName" : "test_case.test_002_user_add.Test_User_add#test_user_add",
-  "historyId" : "84039d43224d4034e83312c8ca354a99",
+  "uid" : "146243f7727ca6f1",
+  "name" : "test_login1_normal",
+  "fullName" : "test_case.test_001_login.Test_Login#test_login1_normal",
+  "historyId" : "5ef76bccef16039bde05631a24b8bd12",
   "time" : {
-    "start" : 1663550889354,
-    "stop" : 1663550904700,
-    "duration" : 15346
+    "start" : 1663342907959,
+    "stop" : 1663342918174,
+    "duration" : 10215
   },
-  "description" : "正常添加用户",
-  "descriptionHtml" : "<p>正常添加用户</p>\n",
+  "description" : "username and passwd is normal",
+  "descriptionHtml" : "<p>username and passwd is normal</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -20,24 +20,9 @@
   "beforeStages" : [ {
     "name" : "start_driver",
     "time" : {
-      "start" : 1663550872764,
-      "stop" : 1663550879138,
+      "start" : 1663342901582,
+      "stop" : 1663342907956,
       "duration" : 6374
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
-  }, {
-    "name" : "_xunit_setup_class_fixture_Test_User_add",
-    "time" : {
-      "start" : 1663550889354,
-      "stop" : 1663550889354,
-      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -49,15 +34,15 @@
     "shouldDisplayMessage" : false
   } ],
   "testStage" : {
-    "description" : "正常添加用户",
+    "description" : "username and passwd is normal",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "b39c234e64b4dc5d",
+      "uid" : "60c66e136b3d964d",
       "name" : "log",
-      "source" : "b39c234e64b4dc5d.txt",
+      "source" : "60c66e136b3d964d.txt",
       "type" : "text/plain",
-      "size" : 69
+      "size" : 146
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -66,26 +51,11 @@
     "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
-    "name" : "_xunit_setup_class_fixture_Test_User_add::0",
-    "time" : {
-      "start" : 1663550904701,
-      "stop" : 1663550904872,
-      "duration" : 171
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
-  }, {
     "name" : "start_driver::0",
     "time" : {
-      "start" : 1663550904874,
-      "stop" : 1663550907083,
-      "duration" : 2209
+      "start" : 1663342933547,
+      "stop" : 1663342935676,
+      "duration" : 2129
     },
     "status" : "passed",
     "steps" : [ ],
@@ -97,26 +67,26 @@
     "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
-    "name" : "suite",
-    "value" : "用户列表添加用户测试用例"
-  }, {
     "name" : "severity",
-    "value" : "normal"
+    "value" : "blocker"
+  }, {
+    "name" : "suite",
+    "value" : "登录测试用例"
   }, {
     "name" : "story",
-    "value" : "正常添加用户"
+    "value" : "登录用例"
   }, {
     "name" : "parentSuite",
     "value" : "test_case"
   }, {
     "name" : "subSuite",
-    "value" : "Test_User_add"
+    "value" : "Test_Login"
   }, {
     "name" : "host",
     "value" : "PC-201903070025"
   }, {
     "name" : "thread",
-    "value" : "2096-MainThread"
+    "value" : "4280-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -125,7 +95,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "test_case.test_002_user_add"
+    "value" : "test_case.test_001_login"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -138,6 +108,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "78cc5036e4482483.json",
+  "source" : "146243f7727ca6f1.json",
   "parameterValues" : [ ]
 }

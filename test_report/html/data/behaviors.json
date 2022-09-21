@@ -5,19 +5,19 @@
     "name" : "登录用例",
     "children" : [ {
       "name" : "test_login1_normal",
-      "uid" : "deab10b3926c410c",
+      "uid" : "d0d7956bfb4cf57",
       "parentUid" : "faa54caf55ab86ce567c76cec5f8e900",
       "status" : "passed",
       "time" : {
-        "start" : 1663726674405,
-        "stop" : 1663726684596,
-        "duration" : 10191
+        "start" : 1663746224651,
+        "stop" : 1663746234912,
+        "duration" : 10261
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 12,
+      "retriesCount" : 13,
       "retriesStatusChange" : false,
       "parameters" : [ ]
     } ],
@@ -26,19 +26,19 @@
     "name" : "正常添加用户",
     "children" : [ {
       "name" : "test_user_add",
-      "uid" : "1561490b1f2b28ed",
+      "uid" : "1022a0686b182dc4",
       "parentUid" : "851d0300996739afe8d399e7fb20fee1",
       "status" : "passed",
       "time" : {
-        "start" : 1663726684600,
-        "stop" : 1663726699886,
-        "duration" : 15286
+        "start" : 1663746234916,
+        "stop" : 1663746250287,
+        "duration" : 15371
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 12,
+      "retriesCount" : 13,
       "retriesStatusChange" : true,
       "parameters" : [ ]
     } ],

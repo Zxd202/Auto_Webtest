@@ -1,15 +1,15 @@
 {
-  "uid" : "9c15c63ff513ee6d",
-  "name" : "test_login1_normal",
-  "fullName" : "test_case.test_001_login.Test_Login#test_login1_normal",
-  "historyId" : "5ef76bccef16039bde05631a24b8bd12",
+  "uid" : "5ad7017f1c95761a",
+  "name" : "test_user_add",
+  "fullName" : "test_case.test_002_user_add.Test_User_add#test_user_add",
+  "historyId" : "84039d43224d4034e83312c8ca354a99",
   "time" : {
-    "start" : 1663550879143,
-    "stop" : 1663550889332,
-    "duration" : 10189
+    "start" : 1663293193426,
+    "stop" : 1663293208738,
+    "duration" : 15312
   },
-  "description" : "username and passwd is normal",
-  "descriptionHtml" : "<p>username and passwd is normal</p>\n",
+  "description" : "正常添加用户",
+  "descriptionHtml" : "<p>正常添加用户</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -20,9 +20,9 @@
   "beforeStages" : [ {
     "name" : "start_driver",
     "time" : {
-      "start" : 1663550872764,
-      "stop" : 1663550879138,
-      "duration" : 6374
+      "start" : 1663293176544,
+      "stop" : 1663293183206,
+      "duration" : 6662
     },
     "status" : "passed",
     "steps" : [ ],
@@ -34,15 +34,15 @@
     "shouldDisplayMessage" : false
   } ],
   "testStage" : {
-    "description" : "username and passwd is normal",
+    "description" : "正常添加用户",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "daaf0eba12f77549",
+      "uid" : "41ff030e6d9146c7",
       "name" : "log",
-      "source" : "daaf0eba12f77549.txt",
+      "source" : "41ff030e6d9146c7.txt",
       "type" : "text/plain",
-      "size" : 146
+      "size" : 69
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -53,9 +53,9 @@
   "afterStages" : [ {
     "name" : "start_driver::0",
     "time" : {
-      "start" : 1663550904874,
-      "stop" : 1663550907083,
-      "duration" : 2209
+      "start" : 1663293208738,
+      "stop" : 1663293211071,
+      "duration" : 2333
     },
     "status" : "passed",
     "steps" : [ ],
@@ -67,26 +67,26 @@
     "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
-    "name" : "suite",
-    "value" : "登录测试用例"
-  }, {
     "name" : "story",
-    "value" : "登录用例"
+    "value" : "正常添加用户"
+  }, {
+    "name" : "suite",
+    "value" : "用户列表添加用户测试用例"
   }, {
     "name" : "severity",
-    "value" : "blocker"
+    "value" : "normal"
   }, {
     "name" : "parentSuite",
     "value" : "test_case"
   }, {
     "name" : "subSuite",
-    "value" : "Test_Login"
+    "value" : "Test_User_add"
   }, {
     "name" : "host",
     "value" : "PC-201903070025"
   }, {
     "name" : "thread",
-    "value" : "2096-MainThread"
+    "value" : "3292-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -95,7 +95,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "test_case.test_001_login"
+    "value" : "test_case.test_002_user_add"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -108,6 +108,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9c15c63ff513ee6d.json",
+  "source" : "5ad7017f1c95761a.json",
   "parameterValues" : [ ]
 }

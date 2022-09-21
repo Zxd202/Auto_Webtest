@@ -1,18 +1,16 @@
 {
-  "uid" : "50bf418cd7d72d2b",
+  "uid" : "7c80cee656fc7d25",
   "name" : "test_user_add",
   "fullName" : "test_case.test_002_user_add.Test_User_add#test_user_add",
   "historyId" : "84039d43224d4034e83312c8ca354a99",
   "time" : {
-    "start" : 1663637822776,
-    "stop" : 1663637838050,
-    "duration" : 15274
+    "start" : 1663681070898,
+    "stop" : 1663681086297,
+    "duration" : 15399
   },
   "description" : "正常添加用户",
   "descriptionHtml" : "<p>正常添加用户</p>\n",
-  "status" : "broken",
-  "statusMessage" : "TypeError: 'WebElement' object is not subscriptable",
-  "statusTrace" : "self = <test_case.test_002_user_add.Test_User_add object at 0x00000000039F23D0>\n\n    @allure.story(\"正常添加用户\")\n    @allure.severity(allure.severity_level.NORMAL)\n    def test_user_add(self):\n        \"\"\"正常添加用户\"\"\"\n        Logger().info(\"user add success\")\n        try:\n            self.user_add.user_add(username, password, email)\n        except NoSuchElementException:\n            Logger().error(\"user_add no find element\")\n>       text = User_Add_Page_Locator().user_add_succee()[0].text\nE       TypeError: 'WebElement' object is not subscriptable\n\ntest_case\\test_002_user_add.py:41: TypeError",
+  "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -22,9 +20,9 @@
   "beforeStages" : [ {
     "name" : "start_driver",
     "time" : {
-      "start" : 1663637806045,
-      "stop" : 1663637812555,
-      "duration" : 6510
+      "start" : 1663681054245,
+      "stop" : 1663681060634,
+      "duration" : 6389
     },
     "status" : "passed",
     "steps" : [ ],
@@ -37,8 +35,8 @@
   }, {
     "name" : "_xunit_setup_class_fixture_Test_User_add",
     "time" : {
-      "start" : 1663637822776,
-      "stop" : 1663637822776,
+      "start" : 1663681070897,
+      "stop" : 1663681070897,
       "duration" : 0
     },
     "status" : "passed",
@@ -52,14 +50,12 @@
   } ],
   "testStage" : {
     "description" : "正常添加用户",
-    "status" : "broken",
-    "statusMessage" : "TypeError: 'WebElement' object is not subscriptable",
-    "statusTrace" : "self = <test_case.test_002_user_add.Test_User_add object at 0x00000000039F23D0>\n\n    @allure.story(\"正常添加用户\")\n    @allure.severity(allure.severity_level.NORMAL)\n    def test_user_add(self):\n        \"\"\"正常添加用户\"\"\"\n        Logger().info(\"user add success\")\n        try:\n            self.user_add.user_add(username, password, email)\n        except NoSuchElementException:\n            Logger().error(\"user_add no find element\")\n>       text = User_Add_Page_Locator().user_add_succee()[0].text\nE       TypeError: 'WebElement' object is not subscriptable\n\ntest_case\\test_002_user_add.py:41: TypeError",
+    "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "d8215740705930cb",
+      "uid" : "cf749bef7c8b9ae4",
       "name" : "log",
-      "source" : "d8215740705930cb.txt",
+      "source" : "cf749bef7c8b9ae4.txt",
       "type" : "text/plain",
       "size" : 69
     } ],
@@ -67,13 +63,13 @@
     "stepsCount" : 0,
     "hasContent" : true,
     "attachmentsCount" : 1,
-    "shouldDisplayMessage" : true
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
     "name" : "_xunit_setup_class_fixture_Test_User_add::0",
     "time" : {
-      "start" : 1663637839654,
-      "stop" : 1663637839836,
+      "start" : 1663681086298,
+      "stop" : 1663681086480,
       "duration" : 182
     },
     "status" : "passed",
@@ -87,9 +83,9 @@
   }, {
     "name" : "start_driver::0",
     "time" : {
-      "start" : 1663637839837,
-      "stop" : 1663637843318,
-      "duration" : 3481
+      "start" : 1663681086482,
+      "stop" : 1663681088652,
+      "duration" : 2170
     },
     "status" : "passed",
     "steps" : [ ],
@@ -101,14 +97,14 @@
     "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
-    "name" : "suite",
-    "value" : "用户列表添加用户测试用例"
-  }, {
     "name" : "severity",
     "value" : "normal"
   }, {
     "name" : "story",
     "value" : "正常添加用户"
+  }, {
+    "name" : "suite",
+    "value" : "用户列表添加用户测试用例"
   }, {
     "name" : "parentSuite",
     "value" : "test_case"
@@ -120,7 +116,7 @@
     "value" : "PC-201903070025"
   }, {
     "name" : "thread",
-    "value" : "4996-MainThread"
+    "value" : "332-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -142,6 +138,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "50bf418cd7d72d2b.json",
+  "source" : "7c80cee656fc7d25.json",
   "parameterValues" : [ ]
 }

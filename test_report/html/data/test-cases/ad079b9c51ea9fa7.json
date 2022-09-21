@@ -1,5 +1,5 @@
 {
-  "uid" : "ae0911fd338cc62c",
+  "uid" : "ad079b9c51ea9fa7",
   "name" : "test_user_add",
   "fullName" : "test_case.test_002_user_add.Test_User_add#test_user_add",
   "historyId" : "84039d43224d4034e83312c8ca354a99",
@@ -57,9 +57,9 @@
     "statusTrace" : "self = <test_case.test_002_user_add.Test_User_add object at 0x00000000039D7EB0>\n\n    @allure.story(\"正常添加用户\")\n    @allure.severity(allure.severity_level.NORMAL)\n    def test_user_add(self):\n        \"\"\"正常添加用户\"\"\"\n        Logger().info(\"user add success\")\n        try:\n            self.user_add.user_add(username, password, email)\n        except NoSuchElementException:\n            Logger().error(\"user_add no find element\")\n        text = User_Add_Page_Locator().user_add_succee()\n>       assert \"添加用户成功\" == text\nE       assert '添加用户成功' == <selenium.webdriver.remote.webelement.WebElement (session=\"69748fe9d2ddd33955bd7dacae561f74\", element=\"fb3b6d75-c3ce-468d-b062-615a48c6e24c\")>\n\ntest_case\\test_002_user_add.py:42: AssertionError",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "945ef368ea245fb9",
+      "uid" : "c53c6eb651795adf",
       "name" : "log",
-      "source" : "945ef368ea245fb9.txt",
+      "source" : "c53c6eb651795adf.txt",
       "type" : "text/plain",
       "size" : 69
     } ],
@@ -142,6 +142,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ae0911fd338cc62c.json",
+  "source" : "ad079b9c51ea9fa7.json",
   "parameterValues" : [ ]
 }

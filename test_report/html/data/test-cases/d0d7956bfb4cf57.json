@@ -1,12 +1,12 @@
 {
-  "uid" : "deab10b3926c410c",
+  "uid" : "d0d7956bfb4cf57",
   "name" : "test_login1_normal",
   "fullName" : "test_case.test_001_login.Test_Login#test_login1_normal",
   "historyId" : "5ef76bccef16039bde05631a24b8bd12",
   "time" : {
-    "start" : 1663726674405,
-    "stop" : 1663726684596,
-    "duration" : 10191
+    "start" : 1663746224651,
+    "stop" : 1663746234912,
+    "duration" : 10261
   },
   "description" : "username and passwd is normal",
   "descriptionHtml" : "<p>username and passwd is normal</p>\n",
@@ -15,14 +15,14 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 12,
+  "retriesCount" : 13,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
     "name" : "start_driver",
     "time" : {
-      "start" : 1663726667851,
-      "stop" : 1663726674402,
-      "duration" : 6551
+      "start" : 1663746218307,
+      "stop" : 1663746224648,
+      "duration" : 6341
     },
     "status" : "passed",
     "steps" : [ ],
@@ -38,9 +38,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "ff0a45eb6ccf3337",
+      "uid" : "349af0fe346466a9",
       "name" : "log",
-      "source" : "ff0a45eb6ccf3337.txt",
+      "source" : "349af0fe346466a9.txt",
       "type" : "text/plain",
       "size" : 146
     } ],
@@ -53,9 +53,9 @@
   "afterStages" : [ {
     "name" : "start_driver::0",
     "time" : {
-      "start" : 1663726700059,
-      "stop" : 1663726702305,
-      "duration" : 2246
+      "start" : 1663746250444,
+      "stop" : 1663746252502,
+      "duration" : 2058
     },
     "status" : "passed",
     "steps" : [ ],
@@ -86,7 +86,7 @@
     "value" : "PC-201903070025"
   }, {
     "name" : "thread",
-    "value" : "2964-MainThread"
+    "value" : "668-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -107,7 +107,15 @@
   "extra" : {
     "severity" : "blocker",
     "retries" : [ {
-      "uid" : "da0cc015ad62f2a5",
+      "uid" : "3d7e6722717ba2a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663726674405,
+        "stop" : 1663726684596,
+        "duration" : 10191
+      }
+    }, {
+      "uid" : "3d9e451c6129ddd3",
       "status" : "passed",
       "time" : {
         "start" : 1663726593408,
@@ -115,7 +123,7 @@
         "duration" : 10167
       }
     }, {
-      "uid" : "46bbdba17bcf85ac",
+      "uid" : "3bc731fab61f6536",
       "status" : "passed",
       "time" : {
         "start" : 1663726523541,
@@ -123,7 +131,7 @@
         "duration" : 10174
       }
     }, {
-      "uid" : "d074c49aed4fd411",
+      "uid" : "a305a386d585e806",
       "status" : "passed",
       "time" : {
         "start" : 1663681060636,
@@ -131,7 +139,7 @@
         "duration" : 10238
       }
     }, {
-      "uid" : "d35574e676d24fe4",
+      "uid" : "8f79bff8862d4857",
       "status" : "passed",
       "time" : {
         "start" : 1663637967714,
@@ -139,7 +147,7 @@
         "duration" : 10203
       }
     }, {
-      "uid" : "264ab79fd0010d9b",
+      "uid" : "5b5b97dac23cdfe5",
       "status" : "passed",
       "time" : {
         "start" : 1663637812558,
@@ -147,7 +155,7 @@
         "duration" : 10214
       }
     }, {
-      "uid" : "9046da6abb32e01b",
+      "uid" : "ba3449e93ae3080",
       "status" : "passed",
       "time" : {
         "start" : 1663637649413,
@@ -155,7 +163,7 @@
         "duration" : 10196
       }
     }, {
-      "uid" : "93690ef5ef250e4b",
+      "uid" : "425ea7c1b7c30b",
       "status" : "passed",
       "time" : {
         "start" : 1663636567932,
@@ -163,7 +171,7 @@
         "duration" : 10170
       }
     }, {
-      "uid" : "986cfa4e5d25b268",
+      "uid" : "76d6ca9b6ce5e200",
       "status" : "passed",
       "time" : {
         "start" : 1663559788854,
@@ -171,7 +179,7 @@
         "duration" : 10169
       }
     }, {
-      "uid" : "9c15c63ff513ee6d",
+      "uid" : "1aa21936ea1ca834",
       "status" : "passed",
       "time" : {
         "start" : 1663550879143,
@@ -179,7 +187,7 @@
         "duration" : 10189
       }
     }, {
-      "uid" : "69ecbfdb5118cc70",
+      "uid" : "146243f7727ca6f1",
       "status" : "passed",
       "time" : {
         "start" : 1663342907959,
@@ -187,7 +195,7 @@
         "duration" : 10215
       }
     }, {
-      "uid" : "ffb71390881c7911",
+      "uid" : "ab81286def1021fc",
       "status" : "passed",
       "time" : {
         "start" : 1663342746050,
@@ -195,7 +203,7 @@
         "duration" : 10252
       }
     }, {
-      "uid" : "7ddb3469d1a3029c",
+      "uid" : "f57a5da78ab3cd90",
       "status" : "passed",
       "time" : {
         "start" : 1663293183209,
@@ -206,6 +214,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "deab10b3926c410c.json",
+  "source" : "d0d7956bfb4cf57.json",
   "parameterValues" : [ ]
 }
