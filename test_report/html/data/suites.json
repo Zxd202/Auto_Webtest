@@ -9,19 +9,19 @@
         "name" : "Test_Login",
         "children" : [ {
           "name" : "test_login1_normal",
-          "uid" : "a0697b75b5ed23b",
+          "uid" : "deab10b3926c410c",
           "parentUid" : "f5a38852a0c9bd0a0fe0db5df3de0585",
           "status" : "passed",
           "time" : {
-            "start" : 1663681060636,
-            "stop" : 1663681070874,
-            "duration" : 10238
+            "start" : 1663726674405,
+            "stop" : 1663726684596,
+            "duration" : 10191
           },
           "flaky" : false,
           "newFailed" : false,
           "newPassed" : false,
           "newBroken" : false,
-          "retriesCount" : 9,
+          "retriesCount" : 12,
           "retriesStatusChange" : false,
           "parameters" : [ ]
         } ],
@@ -34,19 +34,19 @@
         "name" : "Test_User_add",
         "children" : [ {
           "name" : "test_user_add",
-          "uid" : "4ff68ebfc8613524",
+          "uid" : "1561490b1f2b28ed",
           "parentUid" : "4bf20489252d3ce266951fd9b7e59def",
           "status" : "passed",
           "time" : {
-            "start" : 1663681070898,
-            "stop" : 1663681086297,
-            "duration" : 15399
+            "start" : 1663726684600,
+            "stop" : 1663726699886,
+            "duration" : 15286
           },
           "flaky" : false,
           "newFailed" : false,
           "newPassed" : false,
           "newBroken" : false,
-          "retriesCount" : 9,
+          "retriesCount" : 12,
           "retriesStatusChange" : true,
           "parameters" : [ ]
         } ],

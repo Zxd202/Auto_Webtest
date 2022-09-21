@@ -1,0 +1,245 @@
+{
+  "uid" : "1561490b1f2b28ed",
+  "name" : "test_user_add",
+  "fullName" : "test_case.test_002_user_add.Test_User_add#test_user_add",
+  "historyId" : "84039d43224d4034e83312c8ca354a99",
+  "time" : {
+    "start" : 1663726684600,
+    "stop" : 1663726699886,
+    "duration" : 15286
+  },
+  "description" : "正常添加用户",
+  "descriptionHtml" : "<p>正常添加用户</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 12,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "start_driver",
+    "time" : {
+      "start" : 1663726667851,
+      "stop" : 1663726674402,
+      "duration" : 6551
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_class_fixture_Test_User_add",
+    "time" : {
+      "start" : 1663726684599,
+      "stop" : 1663726684600,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "正常添加用户",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "896c8f3494f9f8a4",
+      "name" : "log",
+      "source" : "896c8f3494f9f8a4.txt",
+      "type" : "text/plain",
+      "size" : 69
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_User_add::0",
+    "time" : {
+      "start" : 1663726699887,
+      "stop" : 1663726700058,
+      "duration" : 171
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_driver::0",
+    "time" : {
+      "start" : 1663726700059,
+      "stop" : 1663726702305,
+      "duration" : 2246
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite",
+    "value" : "用户列表添加用户测试用例"
+  }, {
+    "name" : "story",
+    "value" : "正常添加用户"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_User_add"
+  }, {
+    "name" : "host",
+    "value" : "PC-201903070025"
+  }, {
+    "name" : "thread",
+    "value" : "2964-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_002_user_add"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7b0a678f21c5d964",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663726603578,
+        "stop" : 1663726618889,
+        "duration" : 15311
+      }
+    }, {
+      "uid" : "2dd66f5e8d75a02b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663726533719,
+        "stop" : 1663726549027,
+        "duration" : 15308
+      }
+    }, {
+      "uid" : "e7d57dee1f5492ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663681070898,
+        "stop" : 1663681086297,
+        "duration" : 15399
+      }
+    }, {
+      "uid" : "81a1742adfb0cf41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663637977933,
+        "stop" : 1663637993395,
+        "duration" : 15462
+      }
+    }, {
+      "uid" : "50bf418cd7d72d2b",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'WebElement' object is not subscriptable",
+      "time" : {
+        "start" : 1663637822776,
+        "stop" : 1663637838050,
+        "duration" : 15274
+      }
+    }, {
+      "uid" : "8454c3a04d204f41",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '添加用户成功' == <selenium.webdriver.remote.webelement.WebElement (session=\"e90251e63e7f97867f963a012a225489\", element=\"a3ebe7a9-ad58-4af1-bbce-74a6935c16be\")>",
+      "time" : {
+        "start" : 1663637659624,
+        "stop" : 1663637674851,
+        "duration" : 15227
+      }
+    }, {
+      "uid" : "ae0911fd338cc62c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '添加用户成功' == <selenium.webdriver.remote.webelement.WebElement (session=\"69748fe9d2ddd33955bd7dacae561f74\", element=\"fb3b6d75-c3ce-468d-b062-615a48c6e24c\")>",
+      "time" : {
+        "start" : 1663636578106,
+        "stop" : 1663636593399,
+        "duration" : 15293
+      }
+    }, {
+      "uid" : "f2eef8fa0c99611e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert <selenium.webdriver.remote.webelement.WebElement (session=\"6fcb26a0b1b02e4a5c477542b76602f3\", element=\"9f22566f-3a09-4d6d-82f6-76a9de503563\")> == '添加用户成功'",
+      "time" : {
+        "start" : 1663559799027,
+        "stop" : 1663559814260,
+        "duration" : 15233
+      }
+    }, {
+      "uid" : "78cc5036e4482483",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663550889354,
+        "stop" : 1663550904700,
+        "duration" : 15346
+      }
+    }, {
+      "uid" : "a5eda9e57eb5703",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663342918177,
+        "stop" : 1663342933547,
+        "duration" : 15370
+      }
+    }, {
+      "uid" : "b7cc53a862555ccd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663342756314,
+        "stop" : 1663342771672,
+        "duration" : 15358
+      }
+    }, {
+      "uid" : "426776757e333484",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663293193426,
+        "stop" : 1663293208738,
+        "duration" : 15312
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1561490b1f2b28ed.json",
+  "parameterValues" : [ ]
+}

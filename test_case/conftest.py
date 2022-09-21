@@ -11,3 +11,5 @@ def start_driver():
     loginpage.login("admin", "123456")
     yield
     driver.quit()
+
+

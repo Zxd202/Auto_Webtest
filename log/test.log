@@ -1,6 +1,18 @@
-2022-09-20 21:37:40,671 - save_log.py[line:35] - INFO: test_login success
-2022-09-20 21:37:50,710 - save_log.py[line:41] - ERROR: login no find element
-2022-09-20 21:37:50,710 - save_log.py[line:41] - ERROR: login no find element
-2022-09-20 21:37:50,899 - save_log.py[line:35] - INFO: user add success
-2022-09-20 21:37:50,899 - save_log.py[line:35] - INFO: user add success
-2022-09-20 21:37:50,899 - save_log.py[line:35] - INFO: user add success
+2022-09-21 10:15:23,542 - save_log.py[line:35] - INFO: test_login success
+2022-09-21 10:15:33,555 - save_log.py[line:41] - ERROR: login no find element
+2022-09-21 10:15:33,555 - save_log.py[line:41] - ERROR: login no find element
+2022-09-21 10:15:33,719 - save_log.py[line:35] - INFO: user add success
+2022-09-21 10:15:33,719 - save_log.py[line:35] - INFO: user add success
+2022-09-21 10:15:33,719 - save_log.py[line:35] - INFO: user add success
+2022-09-21 10:16:33,409 - save_log.py[line:35] - INFO: test_login success
+2022-09-21 10:16:43,429 - save_log.py[line:41] - ERROR: login no find element
+2022-09-21 10:16:43,429 - save_log.py[line:41] - ERROR: login no find element
+2022-09-21 10:16:43,578 - save_log.py[line:35] - INFO: user add success
+2022-09-21 10:16:43,578 - save_log.py[line:35] - INFO: user add success
+2022-09-21 10:16:43,578 - save_log.py[line:35] - INFO: user add success
+2022-09-21 10:17:54,405 - save_log.py[line:35] - INFO: test_login success
+2022-09-21 10:18:04,433 - save_log.py[line:41] - ERROR: login no find element
+2022-09-21 10:18:04,433 - save_log.py[line:41] - ERROR: login no find element
+2022-09-21 10:18:04,600 - save_log.py[line:35] - INFO: user add success
+2022-09-21 10:18:04,600 - save_log.py[line:35] - INFO: user add success
+2022-09-21 10:18:04,600 - save_log.py[line:35] - INFO: user add success

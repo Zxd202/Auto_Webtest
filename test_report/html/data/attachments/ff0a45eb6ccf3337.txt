@@ -1,0 +1,2 @@
+INFO     F:\Auto_Webtest\log\test.log:save_log.py:35 test_login success
+ERROR    F:\Auto_Webtest\log\test.log:save_log.py:41 login no find element

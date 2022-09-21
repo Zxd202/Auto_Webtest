@@ -1,0 +1,113 @@
+{
+  "uid" : "d35574e676d24fe4",
+  "name" : "test_login1_normal",
+  "fullName" : "test_case.test_001_login.Test_Login#test_login1_normal",
+  "historyId" : "5ef76bccef16039bde05631a24b8bd12",
+  "time" : {
+    "start" : 1663637967714,
+    "stop" : 1663637977917,
+    "duration" : 10203
+  },
+  "description" : "username and passwd is normal",
+  "descriptionHtml" : "<p>username and passwd is normal</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "start_driver",
+    "time" : {
+      "start" : 1663637961304,
+      "stop" : 1663637967711,
+      "duration" : 6407
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "username and passwd is normal",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "13610d17d08fad9a",
+      "name" : "log",
+      "source" : "13610d17d08fad9a.txt",
+      "type" : "text/plain",
+      "size" : 146
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "start_driver::0",
+    "time" : {
+      "start" : 1663637993555,
+      "stop" : 1663637995832,
+      "duration" : 2277
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "登录用例"
+  }, {
+    "name" : "suite",
+    "value" : "登录测试用例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Login"
+  }, {
+    "name" : "host",
+    "value" : "PC-201903070025"
+  }, {
+    "name" : "thread",
+    "value" : "4276-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_001_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d35574e676d24fe4.json",
+  "parameterValues" : [ ]
+}
