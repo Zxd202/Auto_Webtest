@@ -7,12 +7,10 @@ from config.conf import ConfigYaml
 import os
 
 
-
 current_path = os.path.realpath(__file__)
 one_path = os.path.dirname(os.path.dirname(current_path))
 ip = ConfigYaml().get_url()
 url = 'http://{}/'.format(ip)
-
 
 class Driver(object):
     #浏览器对象变量初始化
