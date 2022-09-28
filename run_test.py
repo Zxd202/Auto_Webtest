@@ -5,7 +5,7 @@ import os
 import time
 
 if __name__ == '__main__':
-    pytest.main(['-s',"--alluredir=test_report/result"])
-    time.sleep(2)
-    os.system("allure generate ./test_report/result -o ./test_report/html  --clean")
+    pytest.main(['-s'])
+    #pytest.main(['-s',"--alluredir=test_report/result"])
+    #os.system("allure generate ./test_report/result -o ./test_report/html  --clean")
 

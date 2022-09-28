@@ -105,6 +105,7 @@ class User_Add_Page_Task(object):
     def __init__(self):
         self.user_add_task = User_Add_Page_Handle()
     def user_add(self,username,password,email):
+        """正常添加"""
         self.user_add_task.user_add_click_banner()
         sleep(2)
         self.user_add_task.user_add_click_userlist()
@@ -116,6 +117,23 @@ class User_Add_Page_Task(object):
         self.user_add_task.user_add_input_password(password)
         sleep(2)
         self.user_add_task.user_add_input_email(email)
+        sleep(2)
+        self.user_add_task.user_add_click_confirm()
+        sleep(2)
+
+    def user_add_forbidden(self,username,password,email):
+        """添加用户，状态选禁用"""
+        self.user_add_task.user_add_click_button()
+        sleep(2)
+        self.user_add_task.user_add_input_usename(username)
+        sleep(2)
+        self.user_add_task.user_add_input_password(password)
+        sleep(2)
+        self.user_add_task.user_add_input_email(email)
+        sleep(2)
+        self.user_add_task.user_add_click_status()
+        sleep(2)
+        self.user_add_task.user_add_choice_forbidden()
         sleep(2)
         self.user_add_task.user_add_click_confirm()
         sleep(2)

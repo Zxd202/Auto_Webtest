@@ -1,6 +1,15 @@
-{
-  "state":1,
-  "username":"test20220915",
-  "password":"123456",
-  "email":"892927017@qq.com"
-}
+[
+  {
+    "state":1,
+    "username":"test20220915",
+    "password":"123456",
+    "email":"892927017@qq.com"
+  },
+  {
+    "state":1,
+    "username_forbidden":"test20220927",
+    "password_forbidden":"123456",
+    "email1_forbidden":"892927017@qq.com"
+  }
+]
+

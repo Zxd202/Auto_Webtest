@@ -1,0 +1,54 @@
+2022-09-27 11:31:32,954 - save_log.py[line:35] - INFO: user add success
+2022-09-27 11:34:15,459 - save_log.py[line:35] - INFO: user add success
+2022-09-27 11:37:52,815 - save_log.py[line:35] - INFO: user add success
+2022-09-27 11:53:05,343 - save_log.py[line:35] - INFO: test_login success
+2022-09-27 11:53:15,389 - save_log.py[line:41] - ERROR: login no find element
+2022-09-27 11:53:15,389 - save_log.py[line:41] - ERROR: login no find element
+2022-09-27 11:53:15,571 - save_log.py[line:35] - INFO: user add success
+2022-09-27 11:53:15,571 - save_log.py[line:35] - INFO: user add success
+2022-09-27 11:53:15,571 - save_log.py[line:35] - INFO: user add success
+2022-09-27 11:53:31,014 - save_log.py[line:35] - INFO: user add user forbidden
+2022-09-27 11:53:31,014 - save_log.py[line:35] - INFO: user add user forbidden
+2022-09-27 11:53:31,014 - save_log.py[line:35] - INFO: user add user forbidden
+2022-09-27 11:53:31,014 - save_log.py[line:35] - INFO: user add user forbidden
+2022-09-27 11:53:43,112 - save_log.py[line:41] - ERROR: user add forbidden no find element
+2022-09-27 11:53:43,112 - save_log.py[line:41] - ERROR: user add forbidden no find element
+2022-09-27 11:53:43,112 - save_log.py[line:41] - ERROR: user add forbidden no find element
+2022-09-27 11:53:43,112 - save_log.py[line:41] - ERROR: user add forbidden no find element
+2022-09-27 11:53:43,112 - save_log.py[line:41] - ERROR: user add forbidden no find element
+2022-09-27 11:53:43,306 - save_log.py[line:35] - INFO: user add user forbidden
+2022-09-27 11:53:43,306 - save_log.py[line:35] - INFO: user add user forbidden
+2022-09-27 11:53:43,306 - save_log.py[line:35] - INFO: user add user forbidden
+2022-09-27 11:53:43,306 - save_log.py[line:35] - INFO: user add user forbidden
+2022-09-27 11:53:43,306 - save_log.py[line:35] - INFO: user add user forbidden
+2022-09-27 11:53:43,306 - save_log.py[line:35] - INFO: user add user forbidden
+2022-09-27 11:53:43,306 - save_log.py[line:35] - INFO: user add user forbidden
+2022-09-27 11:53:55,407 - save_log.py[line:41] - ERROR: user add forbidden no find element
+2022-09-27 11:53:55,407 - save_log.py[line:41] - ERROR: user add forbidden no find element
+2022-09-27 11:53:55,407 - save_log.py[line:41] - ERROR: user add forbidden no find element
+2022-09-27 11:53:55,407 - save_log.py[line:41] - ERROR: user add forbidden no find element
+2022-09-27 11:53:55,407 - save_log.py[line:41] - ERROR: user add forbidden no find element
+2022-09-27 11:53:55,407 - save_log.py[line:41] - ERROR: user add forbidden no find element
+2022-09-27 11:53:55,407 - save_log.py[line:41] - ERROR: user add forbidden no find element
+2022-09-27 11:53:55,407 - save_log.py[line:41] - ERROR: user add forbidden no find element
+2022-09-27 11:55:00,806 - save_log.py[line:35] - INFO: test_login success
+2022-09-27 11:55:10,846 - save_log.py[line:41] - ERROR: login no find element
+2022-09-27 11:55:10,846 - save_log.py[line:41] - ERROR: login no find element
+2022-09-27 11:55:10,976 - save_log.py[line:35] - INFO: user add success
+2022-09-27 11:55:10,976 - save_log.py[line:35] - INFO: user add success
+2022-09-27 11:55:10,976 - save_log.py[line:35] - INFO: user add success
+2022-09-27 11:55:26,642 - save_log.py[line:35] - INFO: user add user forbidden
+2022-09-27 11:55:26,642 - save_log.py[line:35] - INFO: user add user forbidden
+2022-09-27 11:55:26,642 - save_log.py[line:35] - INFO: user add user forbidden
+2022-09-27 11:55:26,642 - save_log.py[line:35] - INFO: user add user forbidden
+2022-09-27 11:55:26,642 - save_log.py[line:35] - INFO: user add user forbidden
+2022-09-27 12:15:56,552 - save_log.py[line:35] - INFO: test_login success
+2022-09-27 12:16:06,604 - save_log.py[line:41] - ERROR: login no find element
+2022-09-27 12:16:06,604 - save_log.py[line:41] - ERROR: login no find element
+2022-09-27 12:16:06,765 - save_log.py[line:35] - INFO: user add success
+2022-09-27 12:16:06,765 - save_log.py[line:35] - INFO: user add success
+2022-09-27 12:16:06,765 - save_log.py[line:35] - INFO: user add success
+2022-09-27 12:16:22,040 - save_log.py[line:35] - INFO: user add user forbidden
+2022-09-27 12:16:22,040 - save_log.py[line:35] - INFO: user add user forbidden
+2022-09-27 12:16:22,040 - save_log.py[line:35] - INFO: user add user forbidden
+2022-09-27 12:16:22,040 - save_log.py[line:35] - INFO: user add user forbidden
