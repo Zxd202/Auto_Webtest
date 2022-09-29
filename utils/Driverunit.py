@@ -19,20 +19,20 @@ class Driver(object):
     @classmethod
     def get_driver(cls):
         if cls.__driver is None:
-            # cls.option = Options()
-            # cls.option.add_argument("--window-size=1920,1050")
-            # # 无头模式
-            # cls.option.add_argument('--headless')
-            # # 沙盒模式运行
-            # cls.option.add_argument('--no-sandbox')
-            # # 大量渲染时候写入/tmp而非/dev/shm
-            # cls.option.add_argument('--disable-dev-shm-usage')
-            # #下面两行新增
-            # cls.option.add_argument('--disable-gpu')
-            # cls.option.add_argument('--remote-debugging-port=9222')
-            # # 指定驱动路径
-            # cls.__driver = webdriver.Chrome(options=cls.option)
-            cls.__driver = webdriver.Chrome(r'F:\Auto_Webtest\driver\chromedriver.exe')
+            cls.option = Options()
+            cls.option.add_argument("--window-size=1920,1050")
+            # 无头模式
+            cls.option.add_argument('--headless')
+            # 沙盒模式运行
+            cls.option.add_argument('--no-sandbox')
+            # 大量渲染时候写入/tmp而非/dev/shm
+            cls.option.add_argument('--disable-dev-shm-usage')
+            #下面两行新增
+            cls.option.add_argument('--disable-gpu')
+            cls.option.add_argument('--remote-debugging-port=9222')
+            # 指定驱动路径
+            cls.__driver = webdriver.Chrome(options=cls.option)
+            #cls.__driver = webdriver.Chrome(r'F:\Auto_Webtest\driver\chromedriver.exe')
             cls.__driver.get(url)
             cls.__driver.maximize_window()
             cls.__driver.implicitly_wait(10)

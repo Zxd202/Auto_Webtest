@@ -21,6 +21,12 @@ email = data[0]['email']
 username_forbidden = data[1]['username_forbidden']
 password_forbidden = data[1]['password_forbidden']
 email1_forbidden = data[1]['email1_forbidden']
+username_no_email = data[2]['username_no_email']
+password_no_email = data[2]['password_no_email']
+username_no_pwd = data[3]['username_no_pwd']
+email1_no_pwd = data[3]['email1_no_pwd']
+password_no_name = data[4]['password_no_name']
+email1_no_name = data[4]['email1_no_name']
 
 @allure.suite("用户列表添加用户测试用例")
 class Test_User_add(object):
@@ -33,6 +39,7 @@ class Test_User_add(object):
         sql1 = "DELETE FROM user WHERE username='test20220927'"
         SQL.exec(sql)
         SQL.exec(sql1)
+    #allure报告
     @allure.story("正常添加用户")
     @allure.severity(allure.severity_level.NORMAL)
     def test_user_add(self):
@@ -42,8 +49,10 @@ class Test_User_add(object):
             self.user_add.user_add(username, password, email)
         except NoSuchElementException:
             Logger().error("user_add no find element")
+        #断言
         text = User_Add_Page_Locator().user_add_succee().text
         assert "添加用户成功" == text
+        #截图
         insert_img("user_add_normal.png")
 
     #allure报告
@@ -61,6 +70,45 @@ class Test_User_add(object):
         assert "添加用户成功" == text
         #截图
         insert_img("user_add_forbidden.png")
+
+    # allure报告
+    @allure.story("添加用户-不输入邮箱")
+    @allure.severity(allure.severity_level.NORMAL)
+    def test_user_add_no_email(self):
+        """添加用户，不输入邮箱"""
+        Logger().info("user add no email")
+        try:
+            self.user_add.user_not_input_email(username_no_email, password_no_email)
+        except NoSuchElementException:
+            Logger().error("user add not input email no find element")
+        #截图
+        insert_img("user_add_not_input_email.png")
+
+    # allure报告
+    @allure.story("添加用户-不输入密码")
+    @allure.severity(allure.severity_level.NORMAL)
+    def test_user_add_no_password(self):
+        """添加用户，不输入密码"""
+        Logger().info("user add no password")
+        try:
+            self.user_add.user_not_input_password(username_no_pwd,email1_no_pwd)
+        except NoSuchElementException:
+            Logger().error("user add not input password no find element")
+        #截图
+        insert_img("user_add_not_input_password.png")
+
+    # allure报告
+    @allure.story("添加用户-不输入用户名")
+    @allure.severity(allure.severity_level.NORMAL)
+    def test_user_add_no_username(self):
+        """添加用户，不输入用户名"""
+        Logger().info("user add no username")
+        try:
+            self.user_add.user_not_input_username(password_no_name,email1_no_name)
+        except NoSuchElementException:
+            Logger().error("user add not input uesrname no find element")
+        # 截图
+        insert_img("user_add_not_input_username.png")
 
 if __name__ == '__main__':
     pytest.main(["-s","test_002_user_add.py"])

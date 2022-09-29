@@ -10,6 +10,21 @@
     "username_forbidden":"test20220927",
     "password_forbidden":"123456",
     "email1_forbidden":"892927017@qq.com"
+  },
+  {
+    "state":1,
+    "username_no_email":"test20220929",
+    "password_no_email":"123456"
+  },
+  {
+    "state":1,
+    "username_no_pwd":"test2022092911",
+    "email1_no_pwd":"892927017@qq.com"
+  },
+  {
+    "state":1,
+    "password_no_name":"123456",
+    "email1_no_name":"892927017@qq.com"
   }
 ]
 

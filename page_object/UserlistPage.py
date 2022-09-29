@@ -32,6 +32,12 @@ class User_Add_Page_Locator(object):
         self.cancel = (By.XPATH,"//div[@aria-label='添加分类']/div[3]/span/button[1]/span")
         #添加用户成功提示信息元素定位
         self.user_succee = (By.XPATH,"//p[text()='添加用户成功']")
+        #不填邮箱时的元素定位
+        self.not_email = (By.XPATH,"//div[@class='el-form-item__error']")
+        #不填密码的元素定位
+        self.not_password = (By.LINK_TEXT,u"请输入密码")
+        #不输入用户名
+        self.not_username = (By.LINK_TEXT,u"请输入用户名")
 
     def user_add_banner(self):
         return self.driver.find_element(self.banner[0],self.banner[1])
@@ -57,6 +63,12 @@ class User_Add_Page_Locator(object):
         return self.driver.find_element(self.cancel[0],self.cancel[1])
     def user_add_succee(self):
         return self.driver.find_element(self.user_succee[0],self.user_succee[1])
+    def user_not_email(self):
+        return self.driver.find_element(self.not_email[0],self.not_email[1])
+    def user_not_password(self):
+        return self.driver.find_element(self.not_password[0],self.not_password[1])
+    def user_not_username(self):
+        return self.driver.find_element(self.not_username[0],self.not_username[1])
 
 
 class User_Add_Page_Handle(object):
@@ -138,4 +150,49 @@ class User_Add_Page_Task(object):
         self.user_add_task.user_add_click_confirm()
         sleep(2)
 
+    def user_not_input_email(self,username,password):
+        """添加用户，不输入邮箱"""
+        self.user_add_task.user_add_click_button()
+        sleep(2)
+        self.user_add_task.user_add_input_usename(username)
+        sleep(2)
+        self.user_add_task.user_add_input_password(password)
+        sleep(2)
+        self.user_add_task.user_add_click_confirm()
+        sleep(2)
+        # 断言
+        text = User_Add_Page_Locator().user_not_email().text
+        assert text == "请输入邮箱"
+        self.user_add_task.user_add_click_cancel()
+        sleep(2)
 
+    def user_not_input_password(self,username,email):
+        """添加用户，不输入密码"""
+        self.user_add_task.user_add_click_button()
+        sleep(2)
+        self.user_add_task.user_add_input_usename(username)
+        sleep(2)
+        self.user_add_task.user_add_input_email(email)
+        sleep(2)
+        self.user_add_task.user_add_click_confirm()
+        sleep(2)
+        # 断言
+        text = User_Add_Page_Locator().user_not_email().text
+        assert text == "请输入密码"
+        self.user_add_task.user_add_click_cancel()
+        sleep(2)
+
+    def user_not_input_username(self,password,email):
+        """添加用户，不输入用户名"""
+        self.user_add_task.user_add_click_button()
+        sleep(2)
+        self.user_add_task.user_add_input_password(password)
+        sleep(2)
+        self.user_add_task.user_add_input_email(email)
+        sleep(2)
+        self.user_add_task.user_add_click_confirm()
+        sleep(2)
+        text = User_Add_Page_Locator().user_not_username().text
+        assert text == "请输入用户名"
+        self.user_add_task.user_add_click_cancel()
+        sleep(2)

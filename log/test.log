@@ -1,10 +1,36 @@
-2022-09-28 10:48:01,823 - save_log.py[line:35] - INFO: test_login success
-2022-09-28 10:48:11,888 - save_log.py[line:41] - ERROR: login no find element
-2022-09-28 10:48:11,888 - save_log.py[line:41] - ERROR: login no find element
-2022-09-28 10:48:12,059 - save_log.py[line:35] - INFO: user add success
-2022-09-28 10:48:12,059 - save_log.py[line:35] - INFO: user add success
-2022-09-28 10:48:12,059 - save_log.py[line:35] - INFO: user add success
-2022-09-28 10:48:27,525 - save_log.py[line:35] - INFO: user add forbidden
-2022-09-28 10:48:27,525 - save_log.py[line:35] - INFO: user add forbidden
-2022-09-28 10:48:27,525 - save_log.py[line:35] - INFO: user add forbidden
-2022-09-28 10:48:27,525 - save_log.py[line:35] - INFO: user add forbidden
+2022-09-29 14:09:46,038 - save_log.py[line:35] - INFO: test_login success
+2022-09-29 14:09:56,084 - save_log.py[line:41] - ERROR: login no find element
+2022-09-29 14:09:56,084 - save_log.py[line:41] - ERROR: login no find element
+2022-09-29 14:09:56,300 - save_log.py[line:35] - INFO: user add success
+2022-09-29 14:09:56,300 - save_log.py[line:35] - INFO: user add success
+2022-09-29 14:09:56,300 - save_log.py[line:35] - INFO: user add success
+2022-09-29 14:10:11,751 - save_log.py[line:35] - INFO: user add forbidden
+2022-09-29 14:10:11,751 - save_log.py[line:35] - INFO: user add forbidden
+2022-09-29 14:10:11,751 - save_log.py[line:35] - INFO: user add forbidden
+2022-09-29 14:10:11,751 - save_log.py[line:35] - INFO: user add forbidden
+2022-09-29 14:10:26,785 - save_log.py[line:35] - INFO: user add no email
+2022-09-29 14:10:26,785 - save_log.py[line:35] - INFO: user add no email
+2022-09-29 14:10:26,785 - save_log.py[line:35] - INFO: user add no email
+2022-09-29 14:10:26,785 - save_log.py[line:35] - INFO: user add no email
+2022-09-29 14:10:26,785 - save_log.py[line:35] - INFO: user add no email
+2022-09-29 14:10:37,539 - save_log.py[line:35] - INFO: user add no password
+2022-09-29 14:10:37,539 - save_log.py[line:35] - INFO: user add no password
+2022-09-29 14:10:37,539 - save_log.py[line:35] - INFO: user add no password
+2022-09-29 14:10:37,539 - save_log.py[line:35] - INFO: user add no password
+2022-09-29 14:10:37,539 - save_log.py[line:35] - INFO: user add no password
+2022-09-29 14:10:37,539 - save_log.py[line:35] - INFO: user add no password
+2022-09-29 14:10:48,390 - save_log.py[line:35] - INFO: user add no username
+2022-09-29 14:10:48,390 - save_log.py[line:35] - INFO: user add no username
+2022-09-29 14:10:48,390 - save_log.py[line:35] - INFO: user add no username
+2022-09-29 14:10:48,390 - save_log.py[line:35] - INFO: user add no username
+2022-09-29 14:10:48,390 - save_log.py[line:35] - INFO: user add no username
+2022-09-29 14:10:48,390 - save_log.py[line:35] - INFO: user add no username
+2022-09-29 14:10:48,390 - save_log.py[line:35] - INFO: user add no username
+2022-09-29 14:11:06,921 - save_log.py[line:41] - ERROR: user add not input uesrname no find element
+2022-09-29 14:11:06,921 - save_log.py[line:41] - ERROR: user add not input uesrname no find element
+2022-09-29 14:11:06,921 - save_log.py[line:41] - ERROR: user add not input uesrname no find element
+2022-09-29 14:11:06,921 - save_log.py[line:41] - ERROR: user add not input uesrname no find element
+2022-09-29 14:11:06,921 - save_log.py[line:41] - ERROR: user add not input uesrname no find element
+2022-09-29 14:11:06,921 - save_log.py[line:41] - ERROR: user add not input uesrname no find element
+2022-09-29 14:11:06,921 - save_log.py[line:41] - ERROR: user add not input uesrname no find element
+2022-09-29 14:11:06,921 - save_log.py[line:41] - ERROR: user add not input uesrname no find element
